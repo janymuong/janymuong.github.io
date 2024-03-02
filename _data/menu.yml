@@ -1,21 +1,31 @@
 # For documentation on this file, see:
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
-  - title: all posts
+entries:
+ 
+  - title: <b> my posts </b>
     post_list:
       limit: 5
       show_more: true
-      show_more_text: See archive...
+      show_more_text: tüm yazılar... >
       show_more_url: archive.html
 
-
-  
-  - title: <b> my links <b>
+  - title: <b> mylink </b>
     entries:
       - title: github
         url: https://github.com/jalexine
-      - title: with subsubitems
-        url: about
-  
+      - title: linkedin
+        url: https://linkedin.com//jalexinee
+      - title: e-posta
+        url: mailto:test@mail.com
+  # - title: kategori-1
+  #   post_list:
+  #     category: example2
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: example2-archive.html
+
   - title: rss
     url: feed.xml
+  - title: cv
+    url: assets/me/cv.pdf
