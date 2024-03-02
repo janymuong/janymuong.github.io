@@ -4,7 +4,7 @@ email: jalexine@gmail.com # email of site's author
 url: https://jalexine.github.io # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed) 
-  <p> I've lived so many lives and finally it's this one that I have chosen to keep : Alexine Le Port. <br> <br> I choose to pursue a master's degree in bioinformatics and you can find more infos about it <a href="insert_link_here">here</a> I read theology, philosophy and sci-fi, I make good playlists and I play music. Recently, I've developed a crush on computer architecture. I don't like cats, journalism, bad faith and Windows. Read my mid-articles here</p>
+  <p> I've lived so many lives and finally it's this one that I have chosen to keep : Alexine Le Port. <br> <br> I choose to pursue a master's degree in bioinformatics and you can find more infos about it <a href="insert_link_here">here</a> I read theology, philosophy and sci-fi, I make good playlists and I play music. Recently, I've developed a crush on computer architecture. I don't like cats, journalism, bad faith and Windows. Aesthetically, I'm into dark and horror vibes whether in fashion or in art. Read my mid-articles here</p>
 
 permalink: /:slug.html
 
