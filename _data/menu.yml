@@ -27,5 +27,3 @@ entries:
 
   - title: rss
     url: feed.xml
-  - title: cv
-    url: assets/me/cv.pdf
