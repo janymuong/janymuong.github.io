@@ -1,10 +1,10 @@
-title: ilpo viertola # name of the site
-author: Ilpo Viertola # name of site's author
-email: ilpo.viertola@gmail.com # email of site's author
-url: https://ilpoviertola.github.io # root address of the site
+title: jalexine # name of the site
+author: Alexine Le Port # name of site's author
+email: jalexine@gmail.com # email of site's author
+url: https://jalexine.github.io # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  <p>portfolio + blog of a deep learning doctoral student</p>
+  <p>can i write my fcking bio here</p>
 
 permalink: /:slug.html
 
