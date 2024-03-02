@@ -1,10 +1,10 @@
 title: jalexine # name of the site
-author: Alexine LP # name of site's author
-email: jalexine@test.com # email of site's author
-url: jalexine.com # root address of the site
-baseurl: "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+author: jalexine # name of site's author
+email: testr@gmail.com  # email of site's author
+url: https://nowebsite.com # root address of the site
+baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-My bio here !!
+  A (nearly) no-CSS, fast, minimalist Jekyll theme.
 
 permalink: /:slug.html
 
@@ -14,9 +14,9 @@ favicon: "logo.png" # name+extension of favicon (which must be put on the root f
 remote_theme: riggraz/no-style-please
 
 theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
+  appearance: "dark" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
+  date_format: "%d-%m-%Y" # customize how date is formatted
   show_description: false # show blog description in home page
 
 sass:
