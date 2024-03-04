@@ -10,13 +10,13 @@ entries:
       show_more_text: tüm yazılar... >
       show_more_url: archive.html
 
-  - title: <b> mylink </b>
+  - title: <b> mylinks </b>
     entries:
       - title: github
         url: https://github.com/jalexine
       - title: linkedin
         url: https://linkedin.com//jalexinee
-      - title: e-posta
+      - title: email me ♡
         url: mailto:test@mail.com
   # - title: kategori-1
   #   post_list:
