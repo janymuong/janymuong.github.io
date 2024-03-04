@@ -3,9 +3,9 @@
 
 entries:
  
-  - title: <b> my posts </b>
+  - title: <b> my posts (soon..) </b>
     post_list:
-      limit: 5
+      limit: 0
       show_more: true
       show_more_text: tüm yazılar... >
       show_more_url: archive.html
