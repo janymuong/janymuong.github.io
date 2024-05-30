@@ -1,4 +1,4 @@
 ---
-layout: posts
-title: Posts
+layout: archive
+title: Archive
 ---
