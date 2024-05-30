@@ -1,10 +1,10 @@
-title: ♡ jalexine # name of the site
+title: ♡ alexine # name of the site
 author: Alexine Le Port # name of site's author
 email: jalexine@gmail.com # email of site's author
 url: https://jalexine.github.io # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed) 
-  <p>  <br>  Alexine Le Port <br>   <a href="/link-to-mid-articles" style="color: #f0166f;">MSc student in bioinformatics</a>. <br> <br> IN PROGRESS... <br> <br>  <a href="https://open.spotify.com/user/auwtkox85ovn7ahyyvuv64gql?si=cded6bf4e4ac4a8f" style="color: #f0166f;">listen to my sick playlists</a> <br> <br> I hate journalism, ideology, and Windows.  <a href="/assets/badfaith.pdf" target="_blank" style="color: #f0166f;">if you think you're stuck</a> <br> <br> <br> Read my mid-articles here (TBD) : </p>
+  <p>  <br>  Alexine Le Port <br>  Here's my only fixed address. I am a traveler and also a MSc student in bioinformatics. <br> currently trying to understand matrix factorization in Germany <br> IN PROGRESS... <br> <br>  <a href="https://open.spotify.com/user/auwtkox85ovn7ahyyvuv64gql?si=cded6bf4e4ac4a8f" style="color: #f0166f;">listen to my sick playlists</a> <br> interest : bio/ml, computer arch, theology, philosophy, music, arts, poetry, horror, books <br> pure hate : journalism, ideologies, and Windows.  <a href="/assets/badfaith.pdf" target="_blank" style="color: #f0166f;">???</a> <br> <br> <br> Read my mid-articles here : </p>
 
 permalink: /:slug.html
 
