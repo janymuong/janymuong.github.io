@@ -7,14 +7,14 @@ entries:
     post_list:
       limit: 0
       show_more: true
-      show_more_text: tüm yazılar... >
+      show_more_text: my mid articles... >
       show_more_url: archive.html
 
-  - title: <b> mylinks </b>
+  - title: <b> my links </b>
     entries:
       - title: github
         url: https://github.com/jalexine
-      - title: linkedin
+      - title: date me
         url: https://linkedin.com//jalexinee
       - title: email me ♡
         url: mailto:test@mail.com
