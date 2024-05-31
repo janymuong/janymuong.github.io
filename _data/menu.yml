@@ -3,7 +3,7 @@
 
 entries:
  
-  - title: sometimes i write things that you can read (will update soon) : 
+  - title: <b> my posts (soon..) </b>
     post_list:
       limit: 0
       show_more: true
@@ -15,7 +15,7 @@ entries:
       - title: insta
         url: https://www.instagram.com/jalexinee/
       - title: date me
-        url: https://www.linkedin.com/in/jalexineleport/
+        url: https://linkedin.com//jalexinee
       - title: email me ♡
         url: mailto:alexine.leport@gmail.com
   # - title: kategori-1
