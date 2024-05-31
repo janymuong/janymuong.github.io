@@ -1,52 +1,55 @@
 ---
 layout: post
-title: "Language Tests"
+title: "alexine's case against education"
 category: example2
 ---
 
-Note: I took this test post from [moving](https://github.com/huangyz0918/moving), which is another Jekyll theme which is better that this one so I should not have linked it because now you will decide to use it instead of mine.
 
-### 1. 日本語テスト
+I recently read Scott Alexander's article "A Theoretical Case Against Education," and I wanted to share one part of my ‘theoretical case against education’. 
 
-This is a Japanese test post to show you how japanese is displayed.
+I believe that there's a more nuanced explanation for why people forget much of what they learn in school, beyond what the Ebbinghaus Forgetting Curve can account for.
 
-私は昨日ついにその助力家というのの上よりするたなけれ。
-最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。
-がたを知っないはずも同時に九月をいよいよたありた。
+The issue of students forgetting what they learn in school is multifaceted, and an important factor often overlooked is the lack of interest. This lack of interest stems from both the school environment and the student themselves.
 
-もっと槙さんにぼんやり金少し説明にえた自分大した人私か影響にというお関係たうませないが、この次第も私か兄具合に使うて、槙さんののに当人のあなたにさぞご意味と行くて私個人が小尊敬を聴いように同時に同反抗に集っだうて、いよいよまず相当へあっうからいだ事をしでなけれ。
+## Pedagogical Methods 
 
-> それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。
+This one is obvious, but traditional education methods often emphasize rote memorization and standardized testing, which fail to engage students deeply. In A Mathematician's Lament the author introduces a great metaphor, despite his frequent rants and occasionally facetious arguments. He compares the superficial and mechanical way students often encounter mathematics to teaching painting by only allowing students to look at paint swatches and mix colors, without ever letting them actually paint anything or truly appreciate the beauty and depth of the discipline.
 
-この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。
+For example, I've previously studied literature, and I wonder : how are you supposed to learn if the only thing you have to do is comment on extracts of texts? Same, in computer science, how are you supposed to be motivated to learn by passing written exams?
 
-From [すぐ使えるダミーテキスト - 日本語 Lorem ipsum.](http://lipsum.sugutsukaeru.jp/index.cgi) 
+OK I understand that teachers are often constrained by fixed and overloaded curricula, making it difficult for them to establish more effective approaches, but are students really only good at ingesting content without truly engaging with it?
 
+This approach leads to superficial learning where information is quickly forgotten. Instead, educational practices should incorporate active learning, problem-solving, critical thinking, and proposing projects (choose by students themselves).
 
-### 2. 繁体中文测试
-
-This is a chinese test post to show you how chinese is displayed.
-
-善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。
-
-以也座論頭室業放。要車時地變此親不老高小是統習直麼調未，行年香一？
-
-就竟在，是我童示讓利分和異種百路關母信過明驗有個歷洋中前合著區亮風值新底車有正結，進快保的行戰從：弟除文辦條國備當來際年每小腳識世可的的外的廣下歌洲保輪市果底天影；全氣具些回童但倒影發狀在示，數上學大法很，如要我……月品大供這起服滿老？應學傳者國：山式排只不之然清同關；細車是！停屋常間又，資畫領生，相們制在？公別的人寫教資夠。資再我我！只臉夫藝量不路政吃息緊回力之；兒足灣電空時局我怎初安。意今一子區首者微陸現際安除發連由子由而走學體區園我車當會，經時取頭，嚴了新科同？很夫營動通打，出和導一樂，查旅他。坐是收外子發物北看蘭戰坐車身做可來。道就學務。
-
-國新故。
-
-> 工步他始能詩的，裝進分星海演意學值例道……於財型目古香亮自和這乎？化經溫詩。只賽嚴大一主價世哥受的沒有中年即病行金拉麼河。主小路了種就小為廣不？
-
-From [亂數假文產生器 - Chinese Lorem Ipsum.](http://www.richyli.com/tool/loremipsum/) 
+Moreover, teachers need training on how to effectively communicate in their courses. Merely having passion for a subject or a love for teaching doesn’t guarantee the ability to impart knowledge effectively. I mean it's the most important part : THE COMMUNICATION. You can love being a teacher or the area you teach, sometimes it's not enough. This part drives me personally crazy.  It’s like parenting : good intentions don’t count for much if you don’t know what you’re doing.
 
 
 
-### 3. 简体中文测试
+## Interest and Social Environment
 
-效育声去本义然空，各值太法心想，场强实地。 题铁习点儿表管少间千，只何政亲织文意部，千影画派证男须。 手反取长风治增非等直难群，连取及天他己事头级，影数弦适把气快目人。 专议以省通引而千个，格则口段度样水热马，地教少务改磨。 包思外心半院应她算斯，市外会快记路又火学，劳如肃它准众丧边。
-   
-  > 团算部住县单总边素格军所，合音府教看和广光采率位转，位用品根确针百。 证其标元角工方海接交他，论象切万世认一响义，治然身本风弦带题。 向我次路持加北，她不反心。 说总元军例市决，现始即算证养，规走还壳。
+A student's interest in a subject is significantly influenced by their social environment, both at school and outside of it. 
 
-因林可相儿应满军，热影省条律因资再，整肃赤心将届。 局广写两量备验还，南教事争工民的，备进研上布。 素身电活非直，速这区交示从，百层达。 资量那毛什京身，白这快。 半打容三手开常价或，手严量般象式效，名可重芽门适。 来设什一我么，光界美么或，住身式准。 造酸改表委验众办地百养，商物战众本列听度名院，制压录丽快与千机内。 住需当四议决得命南然照按民置，当住命形金决否矿单外。 气象理离开新集增际，三划方工义很年关，拉许准孝口。 构片出干计由备美打养，持育总指承入无己。
+First, Where does the interest come from? I think that : Interest isn’t inherent, but rather, it's shaped by our education and environment, whether in opposition or not. Our curiosity and fascination for various subjects are not predetermined but are cultivated through learning and exposure to different experiences. It's a dynamic and evolving process, influenced by our unique backgrounds and perspectives.I will come back later on that…
 
-From [假文生成器， lorem ipsum Chinese](http://www.cancms.com/content/dummytext)
+Peer influence is critical. If learning is not valued within a student's social group, they are less likely to engage with their studies. Social mimicry is common, and students often adopt the attitudes and behaviors of their friends. It's like a government, how does it expect to works if it fails to be liked by its own participants... Schools need to cultivate environments where academic achievement is valued. That’s why, IMO, private schools are preferred by wealthy families.
+
+On the other hand, if a student grows up in a family that values education in a specific subject, they are more likely to retain knowledge in those areas. For example, a student with parents who are mathematics teachers may have a heightened interest in pursuing a high-level degree in that field or a related one. Even if social mobility has increased, social reproduction remains strong. I would be curious to know what the current statistics are for on the work activities of children and their socio-professional origins, like the studies led by Bourdieu in The Rules of Art.
+
+The case of a smart kid growing up in a family with low social and cultural capital is interesting because they often build their identity in opposition to their parents or school. This opposition can drive them to engage more deeply with educational material as a form of rebellion or self-assertion.Instead of ignoring the smart kids, they should learn from them.
+
+
+## About the smarter kids
+
+I kinda agree with the idea that "intellectuals put themselves in situations where they hear about things more often." However, I believe that there's more to it than just exposure to information. In my opinion, it's more about the ability to integrate and connect new knowledge to previously acquired information across different subjects. 
+
+Intertextuality is the ability to make these connections and relate diverse concepts, which helps reinforce understanding and retention. For example, you can notice a pattern in one subject and apply it to another, or connect a concept from a book to a real-life situation, and yes, even Tiktok.
+
+Critical thinking is crucial for retaining information. When students critically engage with material, they are more likely to remember it. Even if you don't like something, if your critical thinking skills are highly developed, you're more likely to remember why you didn't like a particular book. Smarter people are often emotionally engaged with their critical thinking, which reinforces their memory of specific details.
+
+I think we should prioritize teaching intertextuality and critical thinking skills to students. By doing so, they will be more interested in the material and will retain it for a more extended period.
+
+My opinion comes from an europoor perspective. While our education system has same issues, at least it's free. Unlike in the U.S. where students have to pay crazy high fees for college. It’s a scam.
+
+I think there’s hope for the future to change education, largely due to technological advancements. Our educational system has changed little, imo, since Rousseau's time. However, I wouldn't want my future kids in a system like this. 
+
+
