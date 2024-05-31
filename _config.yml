@@ -5,7 +5,7 @@ url: https://jalexine.github.io # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed) 
   <p>  <br>  Alexine Le Port <br>  Here's my only fixed address. <br> I'm a traveler, bioinformatics MSc student & I run a small clothing business. <br> <br> > currently trying to understand matrix factorization in Germany <br>  <br>  <a href="https://open.spotify.com/user/auwtkox85ovn7ahyyvuv64gql?si=cded6bf4e4ac4a8f" style="color: #f0166f;">
-    <span style="color: white;">listen to my sick playlists</span> </a> <br> <br> interest : bio/ml, computer arch, theology, philosophy, music, arts, poetry, opera, theater, horror, books, hiking, experiencing and pushing the boundaries of my understanding <br> <br> pure hate : journalism, ideology, <a href="/assets/badfaith.pdf" target="_blank" style="color: #f0166f;">this kind of bad faith</a>, authority, advertising and Windows   <br> <br>  </p>
+    <span style="color: white;"> <span style="font-size: 32px;">️ ☠ </span> listen to my sick playlists <span style="font-size: 32px;">️ ☠ </span> </span> </a> <br> <br> interest : bio/ml, computer arch, theology, philosophy, music, arts, poetry, opera, theater, horror, books, hiking, experiencing and pushing the boundaries of my understanding <br> <br> pure hate : journalism, ideology, <a href="/assets/badfaith.pdf" target="_blank" style="color: #f0166f;">this kind of bad faith</a>, authority, advertising and Windows   <br> <br>  </p>
 
 permalink: /:slug.html
 
