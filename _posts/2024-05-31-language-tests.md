@@ -30,7 +30,7 @@ Moreover, teachers need training on how to effectively communicate in their cour
 
 A student's interest in a subject is significantly influenced by their social environment, both at school and outside of it. 
 
-First, Where does the interest come from? I think that : Interest isn’t inherent, but rather, it's shaped by our education and environment, whether in opposition or not. Our curiosity and fascination for various subjects are not predetermined but are cultivated through learning and exposure to different experiences. It's a dynamic and evolving process, influenced by our unique backgrounds and perspectives.I will come back later on that…
+First, Where does the interest come from? I think that : Interest isn’t [inherent](https://fr.wikisource.org/wiki/L’Encyclopédie/1re_édition/GOUT), but rather, it's shaped by our education and environment, whether in opposition or not. Our curiosity and fascination for various subjects are not predetermined but are cultivated through learning and exposure to different experiences. It's a dynamic and evolving process, influenced by our unique backgrounds and perspectives. I will come back later on that…
 
 Peer influence is critical. If learning is not valued within a student's social group, they are less likely to engage with their studies. [Social mimicry is common](https://www.youtube.com/watch?v=X6kWygqR0L8), and students often adopt the attitudes and behaviors of their friends. It's like a government, how does it expect to works if it fails to be liked by its own participants... Schools need to cultivate environments where academic achievement is valued. That’s why, IMO, private schools are preferred by wealthy families.
 
