@@ -5,7 +5,7 @@ category: example2
 ---
 
 
-I recently read Scott Alexander's article [A Theoretical Case Against Education](https://www.astralcodexten.com/p/a-theoretical-case-against-education) and I wanted to share one part of my ‘theoretical [case against education](https://eddierockerz.com/wp-content/uploads/2020/12/the-case-against-education-why-the-education-system-is-a-waste-of-time-and-money-pdfdrive-.pdf)’. 
+I recently read Scott Alexander's article [A Theoretical Case Against Education](https://www.astralcodexten.com/p/a-theoretical-case-against-education) and I wanted to share one part of my ‘theoretical case against education. 
 
 I believe that there's a more nuanced explanation for why people forget much of what they learn in school, beyond what the [Ebbinghaus Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve) can account for.
 
@@ -49,7 +49,7 @@ Critical thinking is crucial for retaining information. When students critically
 
 I think we should prioritize teaching intertextuality and critical thinking skills to students. By doing so, they will be more interested in the material and will retain it for a more extended period.
 
-My opinion comes from an europoor perspective. While our education system has same issues, at least it's free. Unlike in the U.S. where students have to pay crazy high fees for college. It’s a scam.
+My opinion comes from an europoor perspective. While our education system has same issues, at least it's free. Unlike in the U.S. where students have to pay crazy high fees for college. It’s a scam
 
 I think there’s hope for the future to change education, largely due to technological advancements. Our educational system has changed little, imo, since [Rousseau's time](https://www.reddit.com/r/AskHistorians/comments/qxq6sw/is_it_true_rousseau_abandoned_his_5_children_what/). However, I wouldn't want my future kids in a system like this. 
 
