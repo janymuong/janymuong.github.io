@@ -11,7 +11,7 @@ I believe that there's a more nuanced explanation for why people forget much of 
 
 The issue of students forgetting what they learn in school is multifaceted, and an important factor often overlooked is the lack of interest. This lack of interest stems from both the school environment and the student themselves.
 
-##  <span style="color: white;">Pedagogical Methods </span>
+## <span style="color: white;">Pedagogical Methods </span>
 
 
 This one is obvious, but traditional education methods often emphasize rote memorization and standardized testing, which fail to engage students deeply. In A [Mathematician's Lament](https://eva.fcien.udelar.edu.uy/pluginfile.php/129978/mod_resource/content/2/A%20Mathematicians%20Lament.pdf) the author introduces a great metaphor, despite his frequent rants and occasionally facetious arguments. He compares the superficial and mechanical way students often encounter mathematics to teaching painting by only allowing students to look at paint swatches and mix colors, without ever letting them actually paint anything or truly appreciate the beauty and depth of the discipline.
@@ -43,7 +43,7 @@ The case of a smart kid growing up in a family with low social and cultural capi
 
 I kinda agree with the idea that "intellectuals put themselves in situations where they hear about things more often." However, I believe that there's more to it than just exposure to information. In my opinion, it's more about the ability to integrate and connect new knowledge to previously acquired information across different subjects. 
 
-Intertextuality is the ability to make these connections and relate diverse concepts, which helps reinforce understanding and retention. For example, you can notice a pattern in one subject and apply it to another, or connect a concept from a book to a real-life situation, and yes, even Tiktok.
+Intertextuality is the ability to make these connections and relate diverse concepts. For example, you can notice a pattern in one subject and apply it to another, or connect a concept from a book to a real-life situation, and yes, even Tiktok.
 
 Critical thinking is crucial for retaining information. When students critically engage with material, they are more likely to remember it. Even if you don't like something, if your critical thinking skills are highly developed, you're more likely to remember why you didn't like a particular book. Smarter people are often emotionally engaged with their critical thinking, which reinforces their memory of specific details.
 
