@@ -3,14 +3,14 @@
 
 entries:
  
-  - title: <b> have a look at : </b>
+  - title: <b> have a look at  </b>
     post_list:
       limit: 0
       show_more: true
       show_more_text: my mid articles... >
       show_more_url: archive.html
 
-  - title: <b> my links : </b>
+  - title: <b> my links  </b>
     entries:
       - title: insta
         url: https://www.instagram.com/jalexinee/
