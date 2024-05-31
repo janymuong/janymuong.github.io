@@ -11,10 +11,10 @@ I believe that there's a more nuanced explanation for why people forget much of 
 
 The issue of students forgetting what they learn in school is multifaceted, and an important factor often overlooked is the lack of interest. This lack of interest stems from both the school environment and the student themselves.
 
-##  <span style="color: white;"><h1> Pedagogical Methods </h1></span>
+##  <span style="color: white;">Pedagogical Methods </span>
 
 
-This one is obvious, but traditional education methods often emphasize rote memorization and standardized testing, which fail to engage students deeply. In A Mathematician's Lament the author introduces a great metaphor, despite his frequent rants and occasionally facetious arguments. He compares the superficial and mechanical way students often encounter mathematics to teaching painting by only allowing students to look at paint swatches and mix colors, without ever letting them actually paint anything or truly appreciate the beauty and depth of the discipline.
+This one is obvious, but traditional education methods often emphasize rote memorization and standardized testing, which fail to engage students deeply. In A [Mathematician's Lament](https://eva.fcien.udelar.edu.uy/pluginfile.php/129978/mod_resource/content/2/A%20Mathematicians%20Lament.pdf) the author introduces a great metaphor, despite his frequent rants and occasionally facetious arguments. He compares the superficial and mechanical way students often encounter mathematics to teaching painting by only allowing students to look at paint swatches and mix colors, without ever letting them actually paint anything or truly appreciate the beauty and depth of the discipline.
 
 For example, I've previously studied literature, and I wonder : how are you supposed to learn if the only thing you have to do is comment on extracts of texts? Same, in computer science, how are you supposed to be motivated to learn by passing written exams?
 
@@ -26,20 +26,20 @@ Moreover, teachers need training on how to effectively communicate in their cour
 
 
 
-## Interest and Social Environment
+## <span style="color: white;">Interest and Social Environment </span>
 
 A student's interest in a subject is significantly influenced by their social environment, both at school and outside of it. 
 
 First, Where does the interest come from? I think that : Interest isn’t inherent, but rather, it's shaped by our education and environment, whether in opposition or not. Our curiosity and fascination for various subjects are not predetermined but are cultivated through learning and exposure to different experiences. It's a dynamic and evolving process, influenced by our unique backgrounds and perspectives.I will come back later on that…
 
-Peer influence is critical. If learning is not valued within a student's social group, they are less likely to engage with their studies. Social mimicry is common, and students often adopt the attitudes and behaviors of their friends. It's like a government, how does it expect to works if it fails to be liked by its own participants... Schools need to cultivate environments where academic achievement is valued. That’s why, IMO, private schools are preferred by wealthy families.
+Peer influence is critical. If learning is not valued within a student's social group, they are less likely to engage with their studies. [Social mimicry is common](https://www.youtube.com/watch?v=X6kWygqR0L8), and students often adopt the attitudes and behaviors of their friends. It's like a government, how does it expect to works if it fails to be liked by its own participants... Schools need to cultivate environments where academic achievement is valued. That’s why, IMO, private schools are preferred by wealthy families.
 
-On the other hand, if a student grows up in a family that values education in a specific subject, they are more likely to retain knowledge in those areas. For example, a student with parents who are mathematics teachers may have a heightened interest in pursuing a high-level degree in that field or a related one. Even if social mobility has increased, social reproduction remains strong. I would be curious to know what the current statistics are for on the work activities of children and their socio-professional origins, like the studies led by Bourdieu in The Rules of Art.
+On the other hand, if a student grows up in a family that values education in a specific subject, they are more likely to retain knowledge in those areas. For example, a student with parents who are mathematics teachers may have a heightened interest in pursuing a high-level degree in that field or a related one. Even if social mobility has increased, social reproduction remains strong. I would be curious to know what the current statistics are for on the work activities of children and their socio-professional origins, like the studies led by Bourdieu in [The Rules of Art](https://www.sup.org/books/title/?id=2044).
 
 The case of a smart kid growing up in a family with low social and cultural capital is interesting because they often build their identity in opposition to their parents or school. This opposition can drive them to engage more deeply with educational material as a form of rebellion or self-assertion.Instead of ignoring the smart kids, they should learn from them.
 
 
-## About the smarter kids
+## <span style="color: white;"> About the smarter kids </span>
 
 I kinda agree with the idea that "intellectuals put themselves in situations where they hear about things more often." However, I believe that there's more to it than just exposure to information. In my opinion, it's more about the ability to integrate and connect new knowledge to previously acquired information across different subjects. 
 
@@ -51,6 +51,6 @@ I think we should prioritize teaching intertextuality and critical thinking skil
 
 My opinion comes from an europoor perspective. While our education system has same issues, at least it's free. Unlike in the U.S. where students have to pay crazy high fees for college. It’s a scam.
 
-I think there’s hope for the future to change education, largely due to technological advancements. Our educational system has changed little, imo, since Rousseau's time. However, I wouldn't want my future kids in a system like this. 
+I think there’s hope for the future to change education, largely due to technological advancements. Our educational system has changed little, imo, since [Rousseau's time](https://www.reddit.com/r/AskHistorians/comments/qxq6sw/is_it_true_rousseau_abandoned_his_5_children_what/). However, I wouldn't want my future kids in a system like this. 
 
 
