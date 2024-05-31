@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<span style="color: white;">alexine's case against education</span>"
+title: "alexine's case against education"
 category: example2
 ---
 
