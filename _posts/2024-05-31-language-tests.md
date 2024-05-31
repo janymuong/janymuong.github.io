@@ -5,7 +5,7 @@ category: example2
 ---
 
 
-I recently read Scott Alexander's article ["A Theoretical Case Against Education"](https://www.astralcodexten.com/p/a-theoretical-case-against-education) and I wanted to share one part of my ‘theoretical [case against education](https://eddierockerz.com/wp-content/uploads/2020/12/the-case-against-education-why-the-education-system-is-a-waste-of-time-and-money-pdfdrive-.pdf)’. 
+I recently read Scott Alexander's article [A Theoretical Case Against Education](https://www.astralcodexten.com/p/a-theoretical-case-against-education) and I wanted to share one part of my ‘theoretical [case against education](https://eddierockerz.com/wp-content/uploads/2020/12/the-case-against-education-why-the-education-system-is-a-waste-of-time-and-money-pdfdrive-.pdf)’. 
 
 I believe that there's a more nuanced explanation for why people forget much of what they learn in school, beyond what the Ebbinghaus Forgetting Curve can account for.
 
