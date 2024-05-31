@@ -11,7 +11,8 @@ I believe that there's a more nuanced explanation for why people forget much of 
 
 The issue of students forgetting what they learn in school is multifaceted, and an important factor often overlooked is the lack of interest. This lack of interest stems from both the school environment and the student themselves.
 
-## Pedagogical Methods 
+##  <span style="color: white;"><h1> Pedagogical Methods </h1></span>
+
 
 This one is obvious, but traditional education methods often emphasize rote memorization and standardized testing, which fail to engage students deeply. In A Mathematician's Lament the author introduces a great metaphor, despite his frequent rants and occasionally facetious arguments. He compares the superficial and mechanical way students often encounter mathematics to teaching painting by only allowing students to look at paint swatches and mix colors, without ever letting them actually paint anything or truly appreciate the beauty and depth of the discipline.
 
