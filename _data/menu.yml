@@ -1,19 +1,14 @@
 # For documentation on this file, see:
 # https://github.com/riggraz/no-style-please#customize-the-menu
-
-entries:
  
+entries:
   - title: <b> take a look at  </b>
-    post_list:
-      limit: 0
-      show_more: true
-      show_more_text: my mid articles... >
-      show_more_url: archive.html
-    post_list:
-      limit: 0
-      show_more: true
-      show_more_text: my reco... >
-      show_more_url: reco_list.html
+    entries:
+      - title: my mid articles... >
+        url: archive.html
+
+      - title: my recommendations... >
+        url: reco_list.html
 
   - title: <b> my links  </b>
     entries:
