@@ -1,6 +1,7 @@
 ---
 layout: post
 category: example
+title: alexine's case against education
 ---
 
 I recently read Scott Alexander's article "A Theoretical Case Against Education," and I wanted to share one part of my ‘theoretical case against education’. 
