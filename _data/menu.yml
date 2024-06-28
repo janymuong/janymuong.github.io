@@ -3,27 +3,24 @@
 
 entries:
  
-  - title: <b> my posts (soon..) </b>
+  - title: <b> take a look at  </b>
     post_list:
       limit: 0
       show_more: true
       show_more_text: my mid articles... >
       show_more_url: archive.html
 
-  - title: <b> my links </b>
+  - title: <b> my links  </b>
     entries:
-      - title: github
-        url: https://github.com/jalexine
+      - title: insta
+        url: https://www.instagram.com/jalexinee/
       - title: date me
-        url: https://linkedin.com//jalexinee
+        url: https://www.linkedin.com/in/jalexineleport/
       - title: email me ♡
-        url: mailto:test@mail.com
+        url: mailto:alexine.leport@gmail.com
   # - title: kategori-1
   #   post_list:
   #     category: example2
   #     show_more: true
   #     show_more_text: See more posts...
   #     show_more_url: example2-archive.html
-
-  - title: rss
-    url: feed.xml
