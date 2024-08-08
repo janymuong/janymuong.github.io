@@ -5,9 +5,9 @@ category: example
 ---
 
 
-After watching the [video posted by Linda Yaccarino of Twitter on X](https://x.com/lindayaX/status/1820838625245880634), I was inspired to write about advertisements.
+After watching the [video posted by Linda Yaccarino of Twitter on X](https://x.com/lindayaX/status/1820838625245880634), I was inspired to write about advertisements. Here are some initial thoughts.
 
-Ads have always been a part of our daily lives, it made me struggle almost every single day of my life, but in recent years, there's been a significant shift in how they are presented to us. This change is largely due to the integration of advanced algorithms/AI into the advertising industry.
+Ads have always been a part of our daily lives, it made me struggle almost every single day of my life. But in recent years, there's been a significant shift in how they are presented to us. This change is largely due to the integration of advanced algorithms/AI into the advertising industry.
 In the past, advertisements were universal. Everyone would experience the same diffusion of content, provided they were in the same place (virtually or in real life). The content was designed to appeal to the broadest possible audience. 
 In the 20th century, due to massive industrialization, industry needed to increase consumer spending so they started to use psychological techniques like [sublimation](https://en.wikipedia.org/wiki/Sublimation_(psychology)), [scarcity](https://convertica.org/the-power-of-scarcity-marketing/#:~:text=The%20Scarcity%20Principle%20is%20a%20marketing%20tactic%20that%20capitalizes%20on,a%20product%20in%20the%20market.), [positive reinforcement](https://www.usherettetrays.com/using-conditioning-and-positive-reinforcement-to-help-build-your-brand/#:~:text=Positive%20reinforcement%20is%20all%20about,their%20loyalty%20to%20your%20brand.), [authority](https://www.openpr.com/wiki/authority-marketing), [sex sells](https://en.wikipedia.org/wiki/Sex_in_advertising) and so on.. Noticed that content was designed to appeal to the broadest possible audience. 
 
