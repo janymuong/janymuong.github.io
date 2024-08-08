@@ -5,7 +5,9 @@ category: example
 ---
 
 
-After watching the [video posted by Linda Yaccarino of Twitter on X](https://x.com/lindayaX/status/1820838625245880634), I was inspired to write about advertisements. Here are some initial thoughts.
+After watching the [video posted by Linda Yaccarino of Twitter on X](https://x.com/lindayaX/status/1820838625245880634), I was inspired to write about advertisements. 
+
+Here are some initial thoughts.
 
 Ads have always been a part of our daily lives, it made me struggle almost every single day of my life. But in recent years, there's been a significant shift in how they are presented to us. This change is largely due to the integration of advanced algorithms/AI into the advertising industry.
 In the past, advertisements were universal. Everyone would experience the same diffusion of content, provided they were in the same place (virtually or in real life). The content was designed to appeal to the broadest possible audience. 
