@@ -1,7 +1,6 @@
 If research papers feel like a grind and not something you can truly enjoy, it’s probably because you haven’t found the right approach yet. Simply browsing through them casually won’t cut it.  Like any skill you want to excel at, the key is learning how to analyze effectively. Analyzing and breaking down papers not only helps you understand and retain their content, but it also allows you to truly appreciate them. Its like playing a game where the more you engage, the more rewarding it becomes. <span style="color: white;"> Here’s my method : </span>
-=======
-If research papers feel like a grind and not something you can truly enjoy, it’s probably because you haven’t found the right approach yet. Simply browsing through them casually won’t cut it. Like any skill, learning how to analyze effectively will change the game. By breaking down papers step-by-step, you won’t just understand and retain their content—you’ll also learn to appreciate their depth. Think of it like a puzzle: the more you engage, the more rewarding the experience becomes. Here’s my method :
->>>>>>> b82da32 (fix errors)
+
+
 
 ## <span style="color: white;"> Set the Stage</span>
 
@@ -86,7 +85,6 @@ Don’t be surprised if this method feels overwhelming at first. It’s like lea
 The same goes for reading research papers. In the beginning, it’s time-consuming and mentally taxing. But as you practice, you’ll start to recognize patterns, appreciate finer points, and even look forward to digging into new material.
 
 ## When You're Done with This Exercise
->>>>>>> 2ae9eb1 (new article)
 
 Then when you’re done with it, you could spend less time reading papers and even read them in diagonal. At that point, you won’t need to write everything about the paper but just the general idea and some thoughts. I’ve seen this [X post](https://x.com/jxmnop/status/1864698984918401394), which I really like and I think it’s the next step when you want to take notes.
 
