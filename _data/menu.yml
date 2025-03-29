@@ -7,8 +7,6 @@ entries:
       - title: my mid articles... >
         url: archive.html
 
-      - title: my recommendations... >
-        url: reco_list.html
 
   - title: <b> my links  </b>
     entries:
