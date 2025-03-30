@@ -20,7 +20,7 @@ I talked with some Chinese people. Many of them see the West as collapsing, part
 
 
 # Personal
-I needed some changes. I was supposed to do an internship this year, but I didn’t want my ex crashing my workplace again, so I’m taking some time to figure out whether I should continue in bioinformatics. I said 2025 would be my Asian arc and the year I do things I actually enjoy. So here I am in China, working on small projects like writing a compiler.
+I needed some changes. I was supposed to do an internship this year, but I didn’t want my ex crashing my workplace again, so I’m taking some time to figure out whether I should continue in bioinformatics. I said 2025 would be my Asian arc and the year I do things I actually enjoy. So here I am in China, working on small projects like writing a [compiler](https://www.youtube.com/watch?v=B5YokNW7tIs).
 I’m really happy rn. I’ve found great spots to work, beautiful landscapes, and my daily life here feels incredibly smooth.
 Being here for the first time triggered something like a [Copernican revolution](https://phil871.colinmclear.net/notes/kant-copernican-revolution/) in me. Growing up with punks, I learned to build myself in constant opposition: to authority, to norms, to the system. I heard a lot growing up that life was a [simulation](https://www.youtube.com/watch?v=c_Ot1OEfk9I). In the West, we often shape our identities by what we criticize or reject. It’s a culture that puts the individual at the center—freedom, rebellion, personal truth—but sometimes it ends up isolating us more than it connects us.
 Here, people seem less obsessed with being different and more focused on how they fit into something larger than themselves: a family, a rhythm, a shared purpose. It’s not about erasing individuality but about grounding it. Creating value. There’s a quiet strength in that, one I wasn’t expecting to find.
@@ -35,7 +35,7 @@ Here, the mindset shaped by Confucianism, Daoism, and Buddhism feels fundamental
 
 # 30 Days
 I arrived in China just as the country quietly opened its doors (thirty days visa-free) for select nationalities. At first glance, it appears to be a welcoming gesture, a soft diplomatic smile, but beneath the surface lies strategic intent. This temporary openness isn't a shift in ideology; the Chinese Communist Party traditionally values strict border controls, viewing foreign influence primarily as a potential source of instability. Rather, this policy serves clear economic and geopolitical functions: it attracts tourism revenue and reinforces trade relations with economically strategic nations. For instance, China's visa-free policies closely align with its Belt and Road Initiative. It’s part of a broader effort to expand into as many international markets as possible, and win the global technocapitalist race.
-![gtd](assets/gtd.png)
+![gtd](assets/gtd.png){ width=50% }
 
 This figure is underrated. It shows just how far China has come in flipping global trade dynamics in its favor. I like [this one](https://www.visualcapitalist.com/charted-chinas-exports-by-region-2000-2022/) too.
 Countries rich in key resources (like cobalt from the DRC or copper from Chile) often benefit from smoother visa processes and diplomatic perks. Same, manufacturing hubs like Vietnam or Malaysia get targeted outreach through eased travel policies.
