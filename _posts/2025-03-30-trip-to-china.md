@@ -35,7 +35,7 @@ Here, the mindset shaped by Confucianism, Daoism, and Buddhism feels fundamental
 
 # 30 Days
 I arrived in China just as the country quietly opened its doors (thirty days visa-free) for select nationalities. At first glance, it appears to be a welcoming gesture, a soft diplomatic smile, but beneath the surface lies strategic intent. This temporary openness isn't a shift in ideology; the Chinese Communist Party traditionally values strict border controls, viewing foreign influence primarily as a potential source of instability. Rather, this policy serves clear economic and geopolitical functions: it attracts tourism revenue and reinforces trade relations with economically strategic nations. For instance, China's visa-free policies closely align with its Belt and Road Initiative. It’s part of a broader effort to expand into as many international markets as possible, and win the global technocapitalist race.
-![gtd](assets/gtd.png){ width=50% }
+<img src="gtd.png" alt="Trade Map" width="400"/>
 
 This figure is underrated. It shows just how far China has come in flipping global trade dynamics in its favor. I like [this one](https://www.visualcapitalist.com/charted-chinas-exports-by-region-2000-2022/) too.
 Countries rich in key resources (like cobalt from the DRC or copper from Chile) often benefit from smoother visa processes and diplomatic perks. Same, manufacturing hubs like Vietnam or Malaysia get targeted outreach through eased travel policies.
