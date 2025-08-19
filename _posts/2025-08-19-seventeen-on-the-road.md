@@ -17,12 +17,17 @@ So I set out to find one. I spent a year and a half on the road. I traveled the 
 ![mapix](assets/mapix.jpg)
 
 <p style="color:white;">
-First, I hitchhiked nearly 1,500 miles from France to Bulgaria. Risky, sure, but I made it, and met kind people along the way. The trip took me four days.
-</p>
+First, I hitchhiked nearly 1,500 miles from France to Bulgaria.
+</p> Risky, sure, but I made it, and met kind people along the way. The trip took me four days.
+
 
 The coordinates are never printed, only whispered: look for a meadow, a stream, a ring of forest.  
 
+<br>
+
 <span style="color:white">No phones, no booze, no hard drugs.</span>
+
+<br>
 
 Trust was the local currency, and everyone spent it freely. Strangers would lend out their cars or lose a whole afternoon helping you pitch a tarp, no questions asked. I was starved for that kind of gentleness. I needed proof that people could still be decent, the Rainbow gave me that.
 
