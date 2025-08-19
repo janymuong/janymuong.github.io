@@ -16,7 +16,9 @@ So I set out to find one. I spent a year and a half on the road. I traveled the 
 
 ![mapix](assets/mapix.jpg)
 
-> “First, I hitchhiked nearly 1,500 miles from France to Bulgaria. Risky, sure, but I made it, and met kind people along the way. The trip took me four days.”  
+<p style="color:white;">
+First, I hitchhiked nearly 1,500 miles from France to Bulgaria. Risky, sure, but I made it, and met kind people along the way. The trip took me four days.
+</p>
 
 The coordinates are never printed, only whispered: look for a meadow, a stream, a ring of forest.  
 
@@ -29,6 +31,8 @@ Trust was the local currency, and everyone spent it freely. Strangers would lend
 My first task was to set up camp. I arrived with a flimsy tent, but by the second gathering I was building huts from branches and mud. Completed with a campfire, a guest room, a pebble path, and a hand-painted sign bearing my name. My dad used to be a conspiracy theorist and had drilled [survival skills](https://www.amazon.com/Wilderness-Survival-Guide-Practical-Outdoors/dp/1907486046) into me “for when society collapses.” Turns out those lessons paid off: soon I was firing clay pizza ovens and sparking flame in the rain.
 
 Days rolled together through workshops on language exchange, hiking, yoga, improvised games... At the centre stood the communal kitchen, a ramshackle palace of blackened pots, turning crates of vegetables bought from nearby farms into stews big enough for the whole meadow. We would sit in a giant circle, share the meal, sing one song, then pass a hat to bankroll the next grocery run.
+
+<br><br> 
 
 ![dovier](assets/dovier.gif)  
 *[Mattis Dovier](https://www.instagram.com/mattisdovier/?hl=en)*
@@ -47,6 +51,8 @@ Speaking of building, there were always projects for the children: nets strung b
 In those moments it felt like we were building more than shelters or games. 
 
 Equality was more than a slogan. Expensive cars stood beside rattling vans yet ownership dissolved once you crossed the fire line. Decisions on where to dig new latrines, which trees to fell, and where the next gathering should meet were hashed out in open councils. A talking stick made its slow orbit so every voice, timid or booming, could steer the camp.
+
+<br><br>
 
 ![morales](assets/morales.gif)
 *[Uno Moralez](http://unomoralez.com) <3 i love this russian pixel painter*
