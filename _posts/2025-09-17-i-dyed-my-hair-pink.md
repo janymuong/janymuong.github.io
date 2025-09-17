@@ -7,7 +7,7 @@ category: example
 The dye stained the sink, my palms, the edge of the mirror. I watched the pink foam run down the drain and thought: well, this is what stability looks like now.
 
 
-![bloodpoet](assets/bloodpoet.gif)
+![bloodpoet](assets/bloodoapoet.gif)
 *The Blood of a Poet (1930), Jean Cocteau*
 
 <span style="color:white">
