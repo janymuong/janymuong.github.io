@@ -21,6 +21,7 @@ When you lose track of who you are, the only compass left is often the [child yo
 
 I was thinking about it. 
 When I was growing up, my idols were always women who felt like they were burning from the inside out. [Brody Dalle](https://www.youtube.com/watch?v=b_8U93SvVyY&list=RDb_8U93SvVyY&start_radio=1), [Courtney Love](https://www.youtube.com/watch?v=cH_rfGBwamc&list=RDcH_rfGBwamc&start_radio=1), [Katie Jane Garside](https://www.youtube.com/watch?v=82P40PnMNmQ&list=RD82P40PnMNmQ&start_radio=1) ... 
+
 Unstable, loud, magnetic. That, to me, was freedom.
 
 ![queenadreena](assets/queenadreena.gif)
@@ -61,7 +62,9 @@ I have always been obsessed with creation. I wrote a thesis on it. Yet what we c
 
 <br>
 
-The era of the nonchalant gimmick is fading. <span style="color:white"> The future belongs to those who care deeply</span>, who are not afraid to show the weight of their effort. Indifference will not survive. 
+The era of the nonchalant gimmick is fading.
+
+<span style="color:white"> The future belongs to those who care deeply</span>, who are not afraid to show the weight of their effort. Indifference will not survive. 
 The world needs to move toward authenticity, and what will set us apart is how much of ourselves we give. 
 
 I want to walk that path, to hold on to love, to create value, and to let my life unfold in its own form, never as a sellout again.
