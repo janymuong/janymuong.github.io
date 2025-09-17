@@ -8,10 +8,11 @@ The dye stained the sink, my palms, the edge of the mirror. I watched the pink f
 
 
 ![bloodpoet](assets/bloodpoet.gif)
+*The Blood of a Poet (1930), Jean Cocteau*
 
-
+<span style="color:white">
 ## Facing the self
-
+</span>
 I’ve worn many identities, legal or not. Masks, reset buttons, quick escapes. Change my name, cut my hair, switch styles like outfits. I grew up between worlds, with a mind that didn’t fit where I came from and means that didn’t fit where I wanted to go. So I followed whatever each experience had to offer, learning that the easiest way to adapt was to blur myself, to shift just enough to fit. I kept what I loved hidden, as if secrecy made it safer.
 I always said I wanted to experiment more in life, because it brings you closer to reality, closer to god, though at the same time it pushes you further away from people.
 
@@ -30,15 +31,20 @@ Madness has always been close, an allure I could never ignore, yet in recent yea
 
 
 
+<span style="color:white"> 
 ## Facing the world
-It always felt like too much for people to handle. Somewhere along the way, passion got lost. Life never felt like the books or movies, yet inside me it burned with the same weight as Werther’s longing or the fierce loyalty of Pushkin’s Captain’s Daughter. Love never felt this way. Not as fragile like Candy, not as intimate and raw like Gaspar Noé’s Love, not as poetic like Froth and The Daydream, not wild and free like Wild at Heart, not timeless and artistic like Only Lovers Left Alive.
+</span> 
+It always felt like too much for people to handle. Somewhere along the way, passion got lost. Life never felt like the books or movies, yet inside me it burned with the same weight as [Werther’s longing](https://en.wikipedia.org/wiki/The_Sorrows_of_Young_Werther) or the fierce loyalty of Pushkin’s [Captain’s Daughter](https://en.wikipedia.org/wiki/The_Captain%27s_Daughter). Love never felt this way. Not as fragile like [Candy](https://www.imdb.com/title/tt0424880/), not as intimate and raw like Gaspar Noé’s [Love](https://www.imdb.com/title/tt3774694/), not as poetic like [Froth on the Daydream](https://en.wikipedia.org/wiki/Mood_Indigo_(film)), not wild and free like [Wild at Heart](https://en.wikipedia.org/wiki/Wild_at_Heart_(film)), not timeless and artistic like [Only Lovers Left Alive](https://en.wikipedia.org/wiki/Only_Lovers_Left_Alive). I also found the story between Caroline and Fred in [The Metamorphosis of Prime Intellect](https://mogami.neocities.org/files/prime_intellect.pdf) very romantic.
 
-![wildatheart](assets/wildatheart.jpg)
+
+
+![wildatheart](assets/wildatheart.gif)
 
 Maybe that is why we get lost. We carry dreams that never quite match reality, and the collision leaves us hollow. In the silence that follows, we reach for what is closest, copying the gestures around us, and soon we mistake imitation for direction. Passion fades, routine takes its place. Most days slip away in work that feels detached from meaning. Money is never the real measure. The real question is simple. <span style="color:white"> Do you actually create value.</span>
 
 
-> *Sitting in a chalet in the backyard with a laptop, a little girl hating Windows and dreaming of building a computer and an operating system no one could ever track. She was growing up with a keylogger. The dream never happened. For ten years she didn’t touch a computer.*
+<blockquote><em style="color:#fff">Sitting in a chalet in the backyard with a laptop, a little girl hating Windows and dreaming of building a computer and an operating system no one could ever track. She was growing up with a keylogger. The dream never happened. For ten years she didn’t touch a computer.</em></blockquote>
+
 
 I’ve come to think that honoring life means trying, in whatever way possible, to make the world a little better. I remember how we once looked at it with clear eyes and felt the weight of its injustice, and from that wound came the dream of building something better. That dream was never naïve, it was the only honest vision we ever held.
 
