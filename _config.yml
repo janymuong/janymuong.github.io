@@ -59,6 +59,7 @@ description: > # description of the site (multiple lines allowed)
   <hr>
   <h3 class="section-title">CONNECT with ME on the INTERNET:</h3>
   <div class="social-links">
+    <a href="https://github.com/janymuong" target="_blank"><img src="/img/github-dark.svg" title="GitHub" alt="@janymuong" height="24" width="40" /></a>
     <a href="https://twitter.com/janymuong/" target="_blank"><img src="/img/twitter-x.svg" title="Twitter/X" alt="janymuong" height="24" width="40" /></a>
     <a href="https://www.reddit.com/user/stackjvnkie/" target="_blank"><img src="/img/reddit.svg" title="Reddit" alt="@janymuong" height="40" width="50" /></a>
     <a href="https://www.linkedin.com/in/janymuong/" target="_blank"><img src="/img/linkedin-light.svg" title="LinkedIn" alt="@janymuong" height="24" width="40" /></a> 
