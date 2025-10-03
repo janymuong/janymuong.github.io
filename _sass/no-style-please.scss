@@ -83,10 +83,12 @@ div.highlighter-rouge code {
 
 blockquote {
   font-style: italic;
-  border: thin solid black;
+  border: thin solid $fg-color;
   padding: 1rem;
+  background: rgba(34, 139, 34, 0.05);
+  color: $fg-color !important;
 
-  p { margin: 0; }
+  p { margin: 0; color: $fg-color !important; }
 }
 
 img {
@@ -163,6 +165,44 @@ a {
   border-bottom: 2px solid $fg-color;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
+}
+
+body {
+  color: $fg-color !important;
+}
+
+p, h1, h2, h3, h4, h5, h6, span, blockquote, code {
+  color: $fg-color !important;
+}
+
+// green overlay for all icons
+.tech-stack img, .tools-stack img, .social-links img {
+  filter: sepia(1) saturate(2) hue-rotate(90deg) brightness(0.8);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.tech-stack img:hover, .tools-stack img:hover, .social-links img:hover {
+  filter: sepia(1) saturate(3) hue-rotate(90deg) brightness(1);
+  transform: scale(1.1);
+}
+
+.arch-badge img {
+  filter: sepia(1) saturate(2) hue-rotate(90deg) brightness(0.8);
+}
+.arch-badge img:hover {
+  filter: sepia(1) saturate(3) hue-rotate(90deg) brightness(1);
+  transform: scale(1.1);
+}
+//strong tags are also green
+strong {
+  color: #32CD32 !important;
+}
+
+// green theme
+code {
+  color: #32CD32 !important;
+  background: rgba(34, 139, 34, 0.1) !important;
+  border: 1px solid $fg-color;
 }
 
 
