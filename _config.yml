@@ -66,7 +66,6 @@ description: > # description of the site (multiple lines allowed)
     <a href="https://leetcode.com/u/janymuong/" target="_blank"><img src="/img/leetcode.png" title="LeetCode" alt="@janymuong" height="24" width="40" /></a>
     <a href="https://discord.com/janymuong#0/" target="_blank"><img src="/img/discord-dark.svg" title="Discord" alt="@janymuong" height="22" width="40" /></a>
   </div>
-  <p>Always interested in working on cool projects - feel free to reach out!</p>
 
 permalink: /:slug.html
 
