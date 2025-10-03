@@ -154,6 +154,17 @@ a {
   border: 1px solid $fg-color;
 }
 
+// Special styling for connect heading - remove its border and add it after social icons
+.connect-heading {
+  border-bottom: none !important;
+}
+
+.social-links {
+  border-bottom: 2px solid $fg-color;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
 
 // -------------- THEME SWITCHER -------------- //
 /*
