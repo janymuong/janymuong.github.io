@@ -58,7 +58,6 @@ description: > # description of the site (multiple lines allowed)
     <code>I use arch btw :)</code> 
   </div>
   
-  <hr>
   <h3 class="section-title">connect with me on the internet:</h3>
   <div class="social-links">
     <a href="https://github.com/janymuong" target="_blank"><img src="/img/github-dark.svg" title="github" alt="@janymuong" height="18" width="30" /></a>
@@ -69,6 +68,8 @@ description: > # description of the site (multiple lines allowed)
     <a href="https://leetcode.com/u/janymuong/" target="_blank"><img src="/img/leetcode.png" title="leetcode" alt="@janymuong" height="18" width="30" /></a>
     <a href="https://discord.com/janymuong#0/" target="_blank"><img src="/img/discord-dark.svg" title="discord" alt="@janymuong" height="16" width="30" /></a>
   </div>
+  
+  <hr>
 
 permalink: /:slug.html
 
