@@ -8,10 +8,10 @@ description: > # description of the site (multiple lines allowed)
   
   <h3 class="section-title">About ME:</h3>
   <p>I use mainly <code>Python</code> and <code>TensorFlow</code>, and <code>Amazon Web Services (AWS)</code>, and I like packaging <code>ML</code> models in backend applications.</p>
-  
-  <blockquote>⚡<strong>Fun Fact:</strong> I am (overly) obsessed with <strong>command-line interfaces (CLIs)</strong>.</blockquote>
-  
-  <h3 class="section-title">STUFF:</h3>
+
+  <blockquote><strong>fun fact:</strong> I am (overly) obsessed with <strong>command-line interfaces (CLIs)</strong>.</blockquote>
+
+  <h3 class="section-title no-border">STUFF:</h3>
   <p>This covers (a subset of) languages, frameworks and tools, that I work with.</p>
   <div class="tech-stack">
     <a href="https://www.python.org" target="_blank">
@@ -34,11 +34,15 @@ description: > # description of the site (multiple lines allowed)
     </a>
   </div>
   
-  <h3 class="section-title">Tool Setup ⚙️:</h3>
+  <h3 class="section-title no-border">Tool Setup ⚙️:</h3>
   <p>This segment lists out editors and command-line utilities that I use.</p>
   <div class="tools-stack">
-    <img src="/img/terminal-dark.svg" alt="shell" title="Terminal/Shell" height="35" width="30"/>
-    <img src="/img/neovim.svg" height="40" width="64" title="UNIX neovim" />
+    <a href="#" target="_blank">
+      <img src="/img/terminal-dark.svg" alt="shell" title="Terminal/Shell" height="35" width="30"/>
+    </a>
+    <a href="https://neovim.io/" target="_blank">
+      <img src="/img/neovim.svg" height="40" width="64" title="UNIX neovim" />
+    </a>
     <a href="https://code.visualstudio.com/" target="_blank">
       <img alt="Visual Studio Code" width="30" height="24" src="/img/vs_code.svg" title="VS Code"/>
     </a>

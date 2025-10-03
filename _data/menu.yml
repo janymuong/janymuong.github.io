@@ -1,23 +1,23 @@
 # For documentation on this file, see:
 # https://github.com/riggraz/no-style-please#customize-the-menu
  
-entries:
-  - title: <b> take a look at  </b>
-    entries:
-      - title: my naive articles... >
-        url: archive.html
+# entries:
+#   - title: <b> take a look at  </b>
+#     entries:
+#       - title: my naive articles... >
+#         url: archive.html
 
 
-  - title: <b> my links  </b>
-    entries:
-      - title: twitter
-        url: https://twitter.com/janymuong
-      - title: github
-        url: https://github.com/janymuong
-      - title: linkedin
-        url: https://www.linkedin.com/in/janymuong/
-      - title: hire me :)
-        url: mailto:me.roumuong@gmail.com
+#   - title: <b> my links  </b>
+#     entries:
+#       - title: twitter
+#         url: https://twitter.com/janymuong
+#       - title: github
+#         url: https://github.com/janymuong
+#       - title: linkedin
+#         url: https://www.linkedin.com/in/janymuong/
+#       - title: hire me :)
+#         url: mailto:me.roumuong@gmail.com
   # - title: kategori-1
   #   post_list:
   #     category: example2
