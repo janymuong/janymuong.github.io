@@ -1,71 +1,73 @@
 title: ♡ janymuong # name of the site
-author: Jany Muong # name of site's author
+author: jany muong # name of site's author
 email: me.roumuong@gmail.com # email of site's author
 url: https://janymuong.github.io # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed) 
-  <p>Think of me as a Machine Learning and Cloud DevOps/Software Engineer, with a <strong>Computer Science</strong> background.</p>
+  <p><span style="color: #32CD32;"> <span style="font-size: 40px;">️☣</span> cs + ml <span style="font-size: 40px;">☣️</span> </span></p>
+
+  <p>think of me as a machine learning and cloud devops/software engineer, with a <strong>computer science</strong> background.</p>
   
-  <h3 class="section-title">About ME:</h3>
-  <p>I use mainly <code>Python</code> and <code>TensorFlow</code>, and <code>Amazon Web Services (AWS)</code>, and I like packaging <code>ML</code> models in backend applications.</p>
+  <h3 class="section-title">about me:</h3>
+  <p>i use mainly <code>python</code> and <code>tensorflow</code>, and <code>amazon web services (aws)</code>, and i like packaging <code>ml</code> models in backend applications.</p>
 
-  <blockquote><strong>fun fact:</strong> I am (overly) obsessed with <strong>command-line interfaces (CLIs)</strong>.</blockquote>
+  <blockquote><strong>fun fact:</strong> i am (overly) obsessed with <strong>command-line interfaces (clis)</strong>.</blockquote>
 
-  <h3 class="section-title no-border">STUFF:</h3>
-  <p>This covers (a subset of) languages, frameworks and tools, that I work with.</p>
+  <h3 class="section-title no-border">stuff:</h3>
+  <p>this covers (a subset of) languages, frameworks and tools, that i work with.</p>
   <div class="tech-stack">
     <a href="https://www.python.org" target="_blank">
-      <img src="/img/python.svg" alt="Python" title="Python" width="48" height="40"/>
+      <img src="/img/python.svg" alt="python" title="python" width="32" height="28"/>
     </a> 
     <a href="https://www.tensorflow.org/" target="_blank">
-      <img src="/img/TF.svg" alt="TensorFlow" title="TensorFlow" width="120" height="32" />
+      <img src="/img/TF.svg" alt="tensorflow" title="tensorflow" width="80" height="22" />
     </a>
     <a href="https://www.postgresql.org/" target="_blank"> 
-      <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" title="PostgreSQL" alt="postgreSQL" width="36" height="36"/>
+      <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" title="postgresql" alt="postgresql" width="24" height="24"/>
     </a>
     <a href="https://www.docker.com" target="_blank">
-      <img src="/img/docker.png" alt="docker" title="Docker" width="42" height="36"/>
+      <img src="/img/docker.png" alt="docker" title="docker" width="28" height="24"/>
     </a>
     <a href="https://kubernetes.io/" target="_blank">
-      <img src="/img/kubernetes.svg" title="Kubernetes" alt="Kubernetes" width="36" height="36"/>
+      <img src="/img/kubernetes.svg" title="kubernetes" alt="kubernetes" width="24" height="24"/>
     </a>
     <a href="https://aws.amazon.com" target="_blank">
-      <img src="/img/aws.svg" title="Amazon Web Services" alt="aws" width="48" height="40"/>
+      <img src="/img/aws.svg" title="amazon web services" alt="aws" width="32" height="28"/>
     </a>
   </div>
   
-  <h3 class="section-title no-border">Tool Setup ⚙️:</h3>
-  <p>This segment lists out editors and command-line utilities that I use.</p>
+  <h3 class="section-title no-border">tool setup ⚙️:</h3>
+  <p>this segment lists out editors and command-line utilities that i use.</p>
   <div class="tools-stack">
     <a href="#" target="_blank">
-      <img src="/img/terminal-dark.svg" alt="shell" title="Terminal/Shell" height="35" width="30"/>
+      <img src="/img/terminal-dark.svg" alt="shell" title="terminal/shell" height="24" width="20"/>
     </a>
     <a href="https://neovim.io/" target="_blank">
-      <img src="/img/neovim.svg" height="40" width="64" title="UNIX neovim" />
+      <img src="/img/neovim.svg" height="28" width="44" title="unix neovim" />
     </a>
     <a href="https://code.visualstudio.com/" target="_blank">
-      <img alt="Visual Studio Code" width="30" height="24" src="/img/vs_code.svg" title="VS Code"/>
+      <img alt="visual studio code" width="20" height="16" src="/img/vs_code.svg" title="vs code"/>
     </a>
     <a href="https://aws.amazon.com/cloud9/" target="_blank">
-      <img src="/img/cloud9.svg" alt="al2" title="Amazon Linux 2 Cloud9 IDE" height="24" width="32" />
+      <img src="/img/cloud9.svg" alt="al2" title="amazon linux 2 cloud9 ide" height="16" width="22" />
     </a>
   </div>
   
   <div class="arch-badge">
-    <img title="archlinux" alt="Arch Linux" width="32" src="/img/arch.png" />
-    <code>I use arch btw :)</code> 
+    <img title="archlinux" alt="arch linux" width="22" src="/img/arch.png" />
+    <code>i use arch btw :)</code> 
   </div>
   
   <hr>
-  <h3 class="section-title">CONNECT with ME on the INTERNET:</h3>
+  <h3 class="section-title">connect with me on the internet:</h3>
   <div class="social-links">
-    <a href="https://github.com/janymuong" target="_blank"><img src="/img/github-dark.svg" title="GitHub" alt="@janymuong" height="24" width="40" /></a>
-    <a href="https://twitter.com/janymuong/" target="_blank"><img src="/img/twitter-x.svg" title="Twitter/X" alt="janymuong" height="24" width="40" /></a>
-    <a href="https://www.reddit.com/user/stackjvnkie/" target="_blank"><img src="/img/reddit.svg" title="Reddit" alt="@janymuong" height="40" width="50" /></a>
-    <a href="https://www.linkedin.com/in/janymuong/" target="_blank"><img src="/img/linkedin-light.svg" title="LinkedIn" alt="@janymuong" height="24" width="40" /></a> 
-    <a href="https://www.twitch.tv/janymuong/" target="_blank"><img src="/img/twitch.svg" title="Twitch" alt="@janymuong" height="24" width="40" /></a> 
-    <a href="https://leetcode.com/u/janymuong/" target="_blank"><img src="/img/leetcode.png" title="LeetCode" alt="@janymuong" height="24" width="40" /></a>
-    <a href="https://discord.com/janymuong#0/" target="_blank"><img src="/img/discord-dark.svg" title="Discord" alt="@janymuong" height="22" width="40" /></a>
+    <a href="https://github.com/janymuong" target="_blank"><img src="/img/github-dark.svg" title="github" alt="@janymuong" height="18" width="30" /></a>
+    <a href="https://twitter.com/janymuong/" target="_blank"><img src="/img/twitter-x.svg" title="twitter/x" alt="janymuong" height="18" width="30" /></a>
+    <a href="https://www.reddit.com/user/stackjvnkie/" target="_blank"><img src="/img/reddit.svg" title="reddit" alt="@janymuong" height="30" width="36" /></a>
+    <a href="https://www.linkedin.com/in/janymuong/" target="_blank"><img src="/img/linkedin-light.svg" title="linkedin" alt="@janymuong" height="18" width="30" /></a> 
+    <a href="https://www.twitch.tv/janymuong/" target="_blank"><img src="/img/twitch.svg" title="twitch" alt="@janymuong" height="18" width="30" /></a> 
+    <a href="https://leetcode.com/u/janymuong/" target="_blank"><img src="/img/leetcode.png" title="leetcode" alt="@janymuong" height="18" width="30" /></a>
+    <a href="https://discord.com/janymuong#0/" target="_blank"><img src="/img/discord-dark.svg" title="discord" alt="@janymuong" height="16" width="30" /></a>
   </div>
 
 permalink: /:slug.html
