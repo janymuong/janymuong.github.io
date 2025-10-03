@@ -4,14 +4,14 @@ email: me.roumuong@gmail.com # email of site's author
 url: https://janymuong.github.io # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed) 
-  <p><span style="color: #32CD32;"> <span style="font-size: 40px;">️☣</span> cs + ml <span style="font-size: 40px;">☣️</span> </span></p>
+  <p><span style="color: #32CD32;"> <span style="font-size: 40px;">️☣</span> cs + ml <span style="font-size: 40px;">☣</span> </span></p>
 
   <p>think of me as a machine learning and cloud devops/software engineer, with a <strong>computer science</strong> background.</p>
   
   <h3 class="section-title">about me:</h3>
-  <p>i use mainly <code>python</code> and <code>tensorflow</code>, and <code>amazon web services (aws)</code>, and i like packaging <code>ml</code> models in backend applications.</p>
+  <p>I use mainly <code>python</code> and <code>tensorflow</code>, and <code>amazon web services (aws)</code>, and I like packaging <code>ml</code> models in backend applications.</p>
 
-  <blockquote><strong>fun fact:</strong> i am (overly) obsessed with <strong>command-line interfaces (clis)</strong>.</blockquote>
+  <blockquote><strong>fun fact:</strong> I am (overly) obsessed with <strong>command-line interfaces (clis)</strong>.</blockquote>
 
   <h3 class="section-title no-border">stuff:</h3>
   <p>this covers (a subset of) languages, frameworks and tools, that i work with.</p>
@@ -37,7 +37,7 @@ description: > # description of the site (multiple lines allowed)
   </div>
   
   <h3 class="section-title no-border">tool setup ⚙️:</h3>
-  <p>this segment lists out editors and command-line utilities that i use.</p>
+  <p>this segment lists out editors and command-line utilities that I use.</p>
   <div class="tools-stack">
     <a href="#" target="_blank">
       <img src="/img/terminal-dark.svg" alt="shell" title="terminal/shell" height="24" width="20"/>
@@ -55,7 +55,7 @@ description: > # description of the site (multiple lines allowed)
   
   <div class="arch-badge">
     <img title="archlinux" alt="arch linux" width="22" src="/img/arch.png" />
-    <code>i use arch btw :)</code> 
+    <code>I use arch btw :)</code> 
   </div>
   
   <hr>
@@ -64,7 +64,7 @@ description: > # description of the site (multiple lines allowed)
     <a href="https://github.com/janymuong" target="_blank"><img src="/img/github-dark.svg" title="github" alt="@janymuong" height="18" width="30" /></a>
     <a href="https://twitter.com/janymuong/" target="_blank"><img src="/img/twitter-x.svg" title="twitter/x" alt="janymuong" height="18" width="30" /></a>
     <a href="https://www.reddit.com/user/stackjvnkie/" target="_blank"><img src="/img/reddit.svg" title="reddit" alt="@janymuong" height="30" width="36" /></a>
-    <a href="https://www.linkedin.com/in/janymuong/" target="_blank"><img src="/img/linkedin-light.svg" title="linkedin" alt="@janymuong" height="18" width="30" /></a> 
+    <a href="https://www.linkedin.com/in/janymuong/" target="_blank"><img src="/img/linkedin-dark.svg" title="linkedin" alt="@janymuong" height="18" width="30" /></a> 
     <a href="https://www.twitch.tv/janymuong/" target="_blank"><img src="/img/twitch.svg" title="twitch" alt="@janymuong" height="18" width="30" /></a> 
     <a href="https://leetcode.com/u/janymuong/" target="_blank"><img src="/img/leetcode.png" title="leetcode" alt="@janymuong" height="18" width="30" /></a>
     <a href="https://discord.com/janymuong#0/" target="_blank"><img src="/img/discord-dark.svg" title="discord" alt="@janymuong" height="16" width="30" /></a>
