@@ -6,10 +6,10 @@ baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're si
 description: > # description of the site (multiple lines allowed) 
   <p><span style="color: #32CD32;"> <span style="font-size: 40px;">️☣</span> cs + ml <span style="font-size: 40px;">☣</span> </span></p>
 
-  <p>think of me as a machine learning and cloud devops/software engineer, with a <strong>computer science</strong> background.</p>
+  <p>think of me as a <strong>machine learning</strong> and cloud devops/software engineer, with a <strong>computer science</strong> background.</p>
   
   <h3 class="section-title">about me:</h3>
-  <p>I use mainly <code>python</code> and <code>tensorflow</code>, and <code>amazon web services (aws)</code>, and I like packaging <code>ml</code> models in backend applications.</p>
+  <p>I use mainly python and tensorflow, and amazon web services (aws), and I like packaging ml models in backend applications.</p>
 
   <blockquote><strong>fun fact:</strong> I am (overly) obsessed with <strong>command-line interfaces (clis)</strong>.</blockquote>
 
@@ -55,7 +55,7 @@ description: > # description of the site (multiple lines allowed)
   
   <div class="arch-badge">
     <img title="archlinux" alt="arch linux" width="22" src="/img/arch.png" />
-    <code>I use arch btw :)</code> 
+    <span>I use arch btw :)</span> 
   </div>
   
   <hr>
