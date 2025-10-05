@@ -55,7 +55,7 @@ description: > # description of the site (multiple lines allowed)
   
   <div class="arch-badge">
     <img title="archlinux" alt="arch linux" width="22" src="/img/arch.png" />
-    <span>I use arch btw :)</span> 
+    <span>arch btw :)</span> 
   </div>
   
   <hr>
