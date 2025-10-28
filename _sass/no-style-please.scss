@@ -3,9 +3,14 @@
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: $outer-bg-color; }
+html,
+body {
+  background: $outer-bg-color;
+}
 
-html { height: 100%; }
+html {
+  height: 100%;
+}
 
 body {
   color: $fg-color;
@@ -17,9 +22,11 @@ body {
   overflow-wrap: break-word;
 }
 
-.post-meta { text-align: right; }
+.post-meta {
+  text-align: right;
+}
 
-.site-title { 
+.site-title {
   font-size: 36pt;
   letter-spacing: 2pt;
 }
@@ -30,20 +37,38 @@ body {
   line-height: 150%;
 }
 
-.post-content h2, .post-content h3, .post-content h4,
-.post-content h5, .post-content h6, .post-content a {
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6,
+.post-content a {
   font-family: monospace;
 }
 
-h2, h3, h4, h5, h6 { margin-top: 3rem; }
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 3rem;
+}
 
-hr { margin: 2rem 0; }
+hr {
+  margin: 2rem 0;
+}
 
-p { margin: 1rem 0; }
+p {
+  margin: 1rem 0;
+}
 
-li { margin: 0.4rem 0; }
+li {
+  margin: 0.4rem 0;
+}
 
-*:target { background: yellow; }
+*:target {
+  background: yellow;
+}
 
 .w {
   max-width: 700px;
@@ -57,13 +82,22 @@ hr {
   text-align: center;
   border: 0;
 
-  &:before { content: '/////' }
-  &:after { content: attr(data-content) '/////' }
+  &:before {
+    content: '/////'
+  }
+
+  &:after {
+    content: attr(data-content) '/////'
+  }
 }
 
-table { width: 100%; }
+table {
+  width: 100%;
+}
 
-table, th, td {
+table,
+th,
+td {
   border: thin solid black;
   border-collapse: collapse;
   padding: 0.4rem;
@@ -88,7 +122,10 @@ blockquote {
   background: rgba(34, 139, 34, 0.05);
   color: $fg-color !important;
 
-  p { margin: 0; color: $fg-color !important; }
+  p {
+    margin: 0;
+    color: $fg-color !important;
+  }
 }
 
 img {
@@ -101,7 +138,9 @@ a {
   color: $link-color;
 }
 
-.tech-stack, .tools-stack, .social-links {
+.tech-stack,
+.tools-stack,
+.social-links {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -109,17 +148,24 @@ a {
   margin: 1rem 0;
 }
 
-.tech-stack img, .tools-stack img, .social-links img {
+.tech-stack img,
+.tools-stack img,
+.social-links img {
   transition: transform 0.3s ease;
 }
 
-.tech-stack img:hover, .tools-stack img:hover, .social-links img:hover {
+.tech-stack img:hover,
+.tools-stack img:hover,
+.social-links img:hover {
   transform: scale(1.1);
 }
 
 // for smaller screens
 @media (max-width: 600px) {
-  .tech-stack, .tools-stack, .social-links {
+
+  .tech-stack,
+  .tools-stack,
+  .social-links {
     justify-content: center;
   }
 }
@@ -169,17 +215,30 @@ body {
   color: $fg-color !important;
 }
 
-p, h1, h2, h3, h4, h5, h6, span, blockquote, code {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+blockquote,
+code {
   color: $fg-color !important;
 }
 
 // green overlay for all icons
-.tech-stack img, .tools-stack img, .social-links img {
+.tech-stack img,
+.tools-stack img,
+.social-links img {
   filter: sepia(1) saturate(2) hue-rotate(90deg) brightness(0.8);
   transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-.tech-stack img:hover, .tools-stack img:hover, .social-links img:hover {
+.tech-stack img:hover,
+.tools-stack img:hover,
+.social-links img:hover {
   filter: sepia(1) saturate(3) hue-rotate(90deg) brightness(1);
   transform: scale(1.1);
 }
@@ -190,15 +249,28 @@ p, h1, h2, h3, h4, h5, h6, span, blockquote, code {
 }
 
 // crown image
-img[alt="Pirate Flag"], img[src*="crown"] {
+img[alt="Pirate Flag"],
+img[src*="crown"] {
   filter: sepia(1) saturate(2) hue-rotate(90deg) brightness(0.8);
   transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-img[alt="Pirate Flag"]:hover, img[src*="crown"]:hover {
+img[alt="Pirate Flag"]:hover,
+img[src*="crown"]:hover {
   filter: sepia(1) saturate(3) hue-rotate(90deg) brightness(1);
   transform: scale(1.1);
 }
+
+// avatar styling - blur edges and round corners to blend in
+.avatar {
+  display: block;
+  margin: 2rem auto;
+  border-radius: 20px;
+  filter: blur(1px);
+  opacity: 0.9;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
 .arch-badge img:hover {
   filter: sepia(1) saturate(3) hue-rotate(90deg) brightness(1);
   transform: scale(1.1);
