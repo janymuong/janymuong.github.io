@@ -1,31 +1,35 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: "en" }}">
-  {%- include head.html -%}
-  <body a="{{ site.theme_config.appearance | default: "auto" }}">
-    <main class="page-content" aria-label="Content">
-      <div class="w">
+<html lang="{{ page.lang | default: " en" }}">
+{%- include head.html -%}
 
-       <img src="{{ site.baseurl }}/assets/batman.png" alt="batman" width="190" style="display:block;margin:2rem auto;background:transparent;border:none;box-shadow:none;">
+<body a="{{ site.theme_config.appearance | default: " auto" }}">
+  <main class="page-content" aria-label="Content">
+    <div class="w">
 
-
-
-        {{ content }}
-      </div>
-    </main>
-
-    {%-if site.goat_counter and jekyll.environment == "production"-%}
-      {%-include goat_counter.html-%}
-    {%-endif-%}
-
-    {% if page.custom_js %}
-      {% for js_file in page.custom_js %}
-        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
-      {% endfor %}
-    {% endif %}
-
-    <!-- small image at the bottom -->
-    <img src="{{ site.baseurl }}/assets/crown.png" alt="crown" width="100" style="display:block;margin:0 auto;border:none;padding:0;background:transparent;box-shadow:none;">
+      <img src="{{ site.baseurl }}/assets/not-ackerman.png" alt="batman" width="190"
+        style="display:block;margin:2rem auto;background:transparent;border:none;box-shadow:none;">
 
 
-  </body>
+
+      {{ content }}
+    </div>
+  </main>
+
+  {%-if site.goat_counter and jekyll.environment == "production"-%}
+  {%-include goat_counter.html-%}
+  {%-endif-%}
+
+  {% if page.custom_js %}
+  {% for js_file in page.custom_js %}
+  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
+  {% endfor %}
+  {% endif %}
+
+  <!-- small image at the bottom -->
+  <img src="{{ site.baseurl }}/assets/crown.png" alt="crown" width="100"
+    style="display:block;margin:0 auto;border:none;padding:0;background:transparent;box-shadow:none;">
+
+
+</body>
+
 </html>
