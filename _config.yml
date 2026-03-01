@@ -58,11 +58,6 @@ description: > # description of the site (multiple lines allowed)
     </a>
   </div>
   
-  # <div class="arch-badge">
-  #   <img title="archlinux" alt="arch linux" width="22" src="/img/arch.png" />
-  #   <span>arch btw :)</span> 
-  # </div>
-  
   <hr>
   <h3 class="section-title connect-heading">connect with me on the internet:</h3>
   <div class="social-links">
