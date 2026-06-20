@@ -14,7 +14,7 @@ description: > # description of the site (multiple lines allowed)
   <p>think of me as a <strong>machine learning</strong> and cloud devops/software engineer, with a <strong>computer science</strong> background.</p>
   
   <h3 class="section-title">about me:</h3>
-  <p>I use mainly python and tensorflow, and amazon web services (aws), and I like packaging ml models in backend applications.</p>
+  <p>I use mainly python and pytorch/tensorflow, and amazon web services (aws), and I like packaging ml models in backend applications.</p>
 
   <blockquote><strong>fun fact:</strong> I am (overly) obsessed with <strong>command-line interfaces (clis)</strong>.</blockquote>
 
@@ -26,6 +26,9 @@ description: > # description of the site (multiple lines allowed)
     </a> 
     <a href="https://www.tensorflow.org/" target="_blank">
       <img src="/img/TF.svg" alt="tensorflow" title="tensorflow" width="80" height="22" />
+    </a>
+    <a href="https://www.pytorch.org/" target="_blank">
+      <img src="/img/pytorch.svg" alt="pytorch" title="pytorch" width="80" height="22" />
     </a>
     <a href="https://www.postgresql.org/" target="_blank"> 
       <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" title="postgresql" alt="postgresql" width="24" height="24"/>
