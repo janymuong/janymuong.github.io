@@ -28,7 +28,7 @@ description: > # description of the site (multiple lines allowed)
       <img src="/img/pytorch.svg" alt="pytorch" title="pytorch" width="32" height="24" />
     </a>
     <a href="https://www.tensorflow.org/" target="_blank">
-      <img src="/img/TF.svg" alt="tensorflow" title="tensorflow" width="80" height="28" />
+      <img src="/img/TF.svg" alt="tensorflow" title="tensorflow" width="84" height="28" />
     </a>
     <a href="https://www.postgresql.org/" target="_blank"> 
       <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" title="postgresql" alt="postgresql" width="24" height="24"/>
