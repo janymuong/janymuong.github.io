@@ -14,7 +14,7 @@ description: > # description of the site (multiple lines allowed)
   <p>think of me as a <strong>machine learning</strong> and cloud devops/software engineer, with a <strong>computer science</strong> background.</p>
   
   <h3 class="section-title">about me:</h3>
-  <p>I use mainly python and pytorch/tensorflow, and amazon web services (aws), and I like packaging ml models in backend applications.</p>
+  <p>I like training neural networks. I use mainly python and pytorch/tensorflow, and amazon web services (aws), and I like packaging ml models in backend applications.</p>
 
   <blockquote><strong>fun fact:</strong> I am (overly) obsessed with <strong>command-line interfaces (clis)</strong>.</blockquote>
 
