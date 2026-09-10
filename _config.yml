@@ -4,28 +4,36 @@ email: me.roumuong@gmail.com # email of site's author
 url: https://janymuong.github.io # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed) 
-  <div style="display: flex; align-items: center; gap: 4px;">
+  <div class="badge-row">
     <div class="arch-badge">
       <span style="color: #32CD32; font-size: 16px;">☣ cs + ml ☣</span>
     </div>
 
-    <svg width="70" height="20" viewBox="0 0 70 20" xmlns="http://www.w3.org/2000/svg">
-      <line x1="0" y1="10" x2="70" y2="10" stroke="#32CD32" stroke-width="1.5" opacity="0.8"/>
-      <g stroke="#32CD32" stroke-width="1.5" opacity="0.8">
-        <line x1="12" y1="10" x2="8" y2="3"/>
-        <line x1="12" y1="10" x2="16" y2="3"/>
-        <line x1="12" y1="10" x2="8" y2="17"/>
-        <line x1="12" y1="10" x2="16" y2="17"/>
+    <svg class="thorn-wire" viewBox="0 0 70 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+      <defs>
+        <filter id="thorn-glow" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="1.2" result="blur"/>
+          <feMerge>
+            <feMergeNode in="blur"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+      </defs>
 
-        <line x1="35" y1="10" x2="31" y2="3"/>
-        <line x1="35" y1="10" x2="39" y2="3"/>
-        <line x1="35" y1="10" x2="31" y2="17"/>
-        <line x1="35" y1="10" x2="39" y2="17"/>
+      <path d="M0,10 Q17,4 35,10 T70,10" fill="none" stroke="#32CD32" stroke-width="1.6" opacity="0.9" filter="url(#thorn-glow)"/>
 
-        <line x1="58" y1="10" x2="54" y2="3"/>
-        <line x1="58" y1="10" x2="62" y2="3"/>
-        <line x1="58" y1="10" x2="54" y2="17"/>
-        <line x1="58" y1="10" x2="62" y2="17"/>
+      <g stroke="#32CD32" stroke-width="1.4" fill="none" opacity="0.9" filter="url(#thorn-glow)" stroke-linecap="round">
+        <path d="M10,8.5 Q13,3 16,6"/>
+        <path d="M10,8.5 Q7,4 5,7"/>
+        <path d="M10,8.5 Q13,15 17,13"/>
+
+        <path d="M35,10 Q38,4 41,7"/>
+        <path d="M35,10 Q32,4 29,7"/>
+        <path d="M35,10 Q38,16 42,14"/>
+
+        <path d="M58,9 Q61,3 64,6"/>
+        <path d="M58,9 Q55,4 52,7"/>
+        <path d="M58,9 Q61,15 65,13"/>
       </g>
     </svg>
 

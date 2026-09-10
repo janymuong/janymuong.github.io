@@ -191,15 +191,60 @@ a {
   border-bottom: none;
 }
 
+// -------------- ARCH BADGES + THORN WIRE CONNECTOR -------------- //
+
+.badge-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(2px, 1vw, 12px);
+  flex-wrap: nowrap;
+}
+
 .arch-badge {
   display: inline-flex;
   align-items: center;
   gap: 8px;
   background: rgba(34, 139, 34, 0.1);
   padding: 0.5rem 1rem;
-  border-radius: 4px;
-  border: 1px solid $fg-color;
+  border-radius: 8px;
+  border: 1px solid rgba(34, 139, 34, 0.6);
+  box-shadow: 0 2px 8px rgba(34, 139, 34, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  transition: box-shadow 0.3s ease, transform 0.3s ease, background 0.3s ease;
 }
+
+.arch-badge:hover {
+  box-shadow: 0 4px 16px rgba(34, 139, 34, 0.35),
+    0 0 12px rgba(34, 139, 34, 0.25);
+  background: rgba(34, 139, 34, 0.18);
+  transform: translateY(-2px);
+  border-color: #32CD32;
+}
+
+.thorn-wire {
+  width: clamp(28px, 12vw, 70px);
+  height: auto;
+  flex-shrink: 1;
+}
+
+// shrink badges + wire together on small screens so the row fits horizontally
+@media (max-width: 480px) {
+  .arch-badge {
+    padding: 0.35rem 0.6rem;
+    gap: 5px;
+  }
+
+  .arch-badge span {
+    font-size: 13px;
+  }
+
+  .thorn-wire {
+    width: clamp(20px, 10vw, 40px);
+  }
+}
+
+// -------------------------------------------------------------- //
 
 .connect-heading {
   border-bottom: none !important;
@@ -272,26 +317,9 @@ img[src*="crown"]:hover {
   -webkit-mask-image: radial-gradient(ellipse at center, black 50%, transparent 100%);
 }
 
-.arch-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: rgba(34, 139, 34, 0.1);
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  /* softer corners */
-  border: 1px solid rgba(34, 139, 34, 0.6);
-  box-shadow: 0 2px 8px rgba(34, 139, 34, 0.15),
-    inset 0 1px 0 rgba(255, 255, 255, 0.05);
-  transition: box-shadow 0.3s ease, transform 0.3s ease, background 0.3s ease;
-}
-
-.arch-badge:hover {
-  box-shadow: 0 4px 16px rgba(34, 139, 34, 0.35),
-    0 0 12px rgba(34, 139, 34, 0.25);
-  background: rgba(34, 139, 34, 0.18);
-  transform: translateY(-2px);
-  border-color: #32CD32;
+.arch-badge img:hover {
+  filter: sepia(1) saturate(3) hue-rotate(90deg) brightness(1);
+  transform: scale(1.1);
 }
 
 strong {
