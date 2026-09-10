@@ -4,10 +4,30 @@ email: me.roumuong@gmail.com # email of site's author
 url: https://janymuong.github.io # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed) 
-  <div style="display: flex; align-items: center; gap: 12px;">
+  <div style="display: flex; align-items: center; gap: 4px;">
     <div class="arch-badge">
       <span style="color: #32CD32; font-size: 16px;">☣ cs + ml ☣</span>
     </div>
+
+    <svg width="70" height="20" viewBox="0 0 70 20" xmlns="http://www.w3.org/2000/svg">
+      <line x1="0" y1="10" x2="70" y2="10" stroke="#32CD32" stroke-width="1.5" opacity="0.8"/>
+      <g stroke="#32CD32" stroke-width="1.5" opacity="0.8">
+        <line x1="12" y1="10" x2="8" y2="3"/>
+        <line x1="12" y1="10" x2="16" y2="3"/>
+        <line x1="12" y1="10" x2="8" y2="17"/>
+        <line x1="12" y1="10" x2="16" y2="17"/>
+
+        <line x1="35" y1="10" x2="31" y2="3"/>
+        <line x1="35" y1="10" x2="39" y2="3"/>
+        <line x1="35" y1="10" x2="31" y2="17"/>
+        <line x1="35" y1="10" x2="39" y2="17"/>
+
+        <line x1="58" y1="10" x2="54" y2="3"/>
+        <line x1="58" y1="10" x2="62" y2="3"/>
+        <line x1="58" y1="10" x2="54" y2="17"/>
+        <line x1="58" y1="10" x2="62" y2="17"/>
+      </g>
+    </svg>
 
     <div class="arch-badge">
       <img title="archlinux" alt="arch linux" width="22" src="/img/arch.png" />
