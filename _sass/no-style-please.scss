@@ -279,8 +279,8 @@ img[src*="crown"]:hover {
   background: rgba(34, 139, 34, 0.1);
   padding: 0.5rem 1rem;
   border-radius: 8px;
-  /* was 4px — softer corners */
-  border: 1px solid $fg-color;
+  /* softer corners */
+  border: 1px solid rgba(34, 139, 34, 0.6);
   box-shadow: 0 2px 8px rgba(34, 139, 34, 0.15),
     inset 0 1px 0 rgba(255, 255, 255, 0.05);
   transition: box-shadow 0.3s ease, transform 0.3s ease, background 0.3s ease;
@@ -291,6 +291,7 @@ img[src*="crown"]:hover {
     0 0 12px rgba(34, 139, 34, 0.25);
   background: rgba(34, 139, 34, 0.18);
   transform: translateY(-2px);
+  border-color: #32CD32;
 }
 
 strong {
