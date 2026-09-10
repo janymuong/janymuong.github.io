@@ -5,42 +5,47 @@ url: https://janymuong.github.io # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed) 
   <div class="badge-row">
-    <div class="arch-badge">
-      <span style="color: #32CD32; font-size: 16px;">☣ cs + ml ☣</span>
-    </div>
-
-    <svg class="thorn-wire" viewBox="0 0 70 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+    <svg class="log-badge" viewBox="0 0 150 32" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <filter id="thorn-glow" x="-50%" y="-50%" width="200%" height="200%">
-          <feGaussianBlur stdDeviation="1.2" result="blur"/>
-          <feMerge>
-            <feMergeNode in="blur"/>
-            <feMergeNode in="SourceGraphic"/>
-          </feMerge>
-        </filter>
+        <linearGradient id="bark2" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#7a5c3e"/>
+          <stop offset="45%" stop-color="#5c4229"/>
+          <stop offset="100%" stop-color="#3f2d1c"/>
+        </linearGradient>
+        <radialGradient id="ring2" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#a9865c"/>
+          <stop offset="55%" stop-color="#6b4a2c"/>
+          <stop offset="100%" stop-color="#3f2d1c"/>
+        </radialGradient>
       </defs>
+      <rect x="8" y="4" width="134" height="24" rx="12" fill="url(#bark2)" stroke="#2a1d10" stroke-width="1.2"/>
+      <path d="M12,9 Q40,6 70,10 T134,8" stroke="#2a1d10" stroke-width="0.8" fill="none" opacity="0.35"/>
+      <path d="M12,22 Q42,19 75,23 T134,21" stroke="#2a1d10" stroke-width="0.8" fill="none" opacity="0.3"/>
+      <ellipse cx="9" cy="16" rx="6" ry="12" fill="url(#ring2)" stroke="#2a1d10" stroke-width="1.2"/>
+      <ellipse cx="141" cy="16" rx="6" ry="12" fill="url(#ring2)" stroke="#2a1d10" stroke-width="1.2"/>
+      <text x="76" y="21" text-anchor="middle" font-family="monospace" font-size="13" fill="#32CD32">cs + ml</text>
+    </svg>
 
-      <path d="M0,10 Q17,4 35,10 T70,10" fill="none" stroke="#32CD32" stroke-width="1.6" opacity="0.9" filter="url(#thorn-glow)"/>
-
-      <g stroke="#32CD32" stroke-width="1.4" fill="none" opacity="0.9" filter="url(#thorn-glow)" stroke-linecap="round">
-        <path d="M10,8.5 Q13,3 16,6"/>
-        <path d="M10,8.5 Q7,4 5,7"/>
-        <path d="M10,8.5 Q13,15 17,13"/>
-
-        <path d="M35,10 Q38,4 41,7"/>
-        <path d="M35,10 Q32,4 29,7"/>
-        <path d="M35,10 Q38,16 42,14"/>
-
-        <path d="M58,9 Q61,3 64,6"/>
-        <path d="M58,9 Q55,4 52,7"/>
-        <path d="M58,9 Q61,15 65,13"/>
+    <svg class="thorn-wire" viewBox="0 0 54 16" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,8 Q13,4 27,8 T54,8" fill="none" stroke="#7a6a55" stroke-width="1.2" opacity="0.85"/>
+      <g stroke="#7a6a55" stroke-width="1" fill="none" opacity="0.85" stroke-linecap="round">
+        <path d="M9,7 Q11,3 14,5"/>
+        <path d="M9,7 Q6,4 4,6"/>
+        <path d="M27,8 Q29,3 32,6"/>
+        <path d="M27,8 Q25,3 22,6"/>
+        <path d="M45,7 Q47,3 50,5"/>
+        <path d="M45,7 Q43,4 40,6"/>
       </g>
     </svg>
 
-    <div class="arch-badge">
-      <img title="archlinux" alt="arch linux" width="22" src="/img/arch.png" />
-      <span>arch btw :)</span>
-    </div>
+    <svg class="log-badge" viewBox="0 0 120 32" xmlns="http://www.w3.org/2000/svg">
+      <rect x="8" y="4" width="104" height="24" rx="12" fill="url(#bark2)" stroke="#2a1d10" stroke-width="1.2"/>
+      <path d="M12,9 Q35,6 60,10 T104,8" stroke="#2a1d10" stroke-width="0.8" fill="none" opacity="0.35"/>
+      <path d="M12,22 Q38,19 65,23 T104,21" stroke="#2a1d10" stroke-width="0.8" fill="none" opacity="0.3"/>
+      <ellipse cx="9" cy="16" rx="6" ry="12" fill="url(#ring2)" stroke="#2a1d10" stroke-width="1.2"/>
+      <ellipse cx="111" cy="16" rx="6" ry="12" fill="url(#ring2)" stroke="#2a1d10" stroke-width="1.2"/>
+      <text x="60" y="21" text-anchor="middle" font-family="monospace" font-size="11" fill="#32CD32">arch btw :)</text>
+    </svg>
   </div>
 
   <p>think of me as a <strong>machine learning</strong> and cloud devops/software engineer, with a <strong>computer science</strong> background.</p>

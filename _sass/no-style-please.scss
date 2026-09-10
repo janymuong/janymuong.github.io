@@ -191,100 +191,47 @@ a {
   border-bottom: none;
 }
 
-// -------------- ARCH BADGES + THORN WIRE CONNECTOR -------------- //
+// -------------- WOOD LOG BADGES + THORN WIRE CONNECTOR -------------- //
 
 .badge-row {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: clamp(2px, 1vw, 12px);
+  gap: clamp(2px, 1vw, 10px);
   flex-wrap: nowrap;
+  margin: 1rem 0;
 }
 
-.arch-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  position: relative;
-  padding: 0.6rem 1.4rem;
-  border-radius: 50px / 18px;
-  /* elongated log shape */
-  background:
-    repeating-linear-gradient(90deg,
-      rgba(0, 0, 0, 0.08) 0px,
-      rgba(0, 0, 0, 0.08) 2px,
-      transparent 2px,
-      transparent 6px),
-    linear-gradient(180deg, #8b5a2b 0%, #6b4423 50%, #5a3a1e 100%);
-  border: 2px solid #4a2e15;
-  box-shadow:
-    inset 0 2px 4px rgba(255, 255, 255, 0.15),
-    inset 0 -3px 6px rgba(0, 0, 0, 0.4),
-    0 4px 10px rgba(0, 0, 0, 0.5);
-  color: #f0e6d2;
+.log-badge {
+  width: clamp(90px, 30vw, 150px);
+  height: auto;
+  flex-shrink: 1;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-/* log end-grain circles at each side */
-.arch-badge::before,
-.arch-badge::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  width: 14px;
-  height: 90%;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  background: radial-gradient(circle, #a67c52 0%, #6b4423 60%, #4a2e15 100%);
-  border: 1px solid #3a2410;
-}
-
-.arch-badge::before {
-  left: -6px;
-}
-
-.arch-badge::after {
-  right: -6px;
-}
-
-.arch-badge span {
-  color: #32CD32 !important;
-  text-shadow: 0 0 4px rgba(50, 205, 50, 0.6);
-  position: relative;
-  z-index: 1;
-}
-
-.arch-badge:hover {
-  box-shadow:
-    inset 0 2px 4px rgba(255, 255, 255, 0.2),
-    inset 0 -3px 6px rgba(0, 0, 0, 0.4),
-    0 6px 16px rgba(0, 0, 0, 0.6),
-    0 0 12px rgba(50, 205, 50, 0.3);
+.log-badge:hover {
   transform: translateY(-2px);
+  filter: brightness(1.1);
 }
 
 .thorn-wire {
-  width: clamp(28px, 12vw, 70px);
+  width: clamp(20px, 9vw, 54px);
   height: auto;
   flex-shrink: 1;
 }
 
-// shrink badges + wire together on small screens so the row fits horizontally
+// shrink logs + wire together on small screens so the row fits horizontally
 @media (max-width: 480px) {
-  .arch-badge {
-    padding: 0.35rem 0.6rem;
-    gap: 5px;
-  }
-
-  .arch-badge span {
-    font-size: 13px;
+  .log-badge {
+    width: clamp(70px, 26vw, 110px);
   }
 
   .thorn-wire {
-    width: clamp(20px, 10vw, 40px);
+    width: clamp(14px, 7vw, 34px);
   }
 }
 
-// -------------------------------------------------------------- //
+// ---------------------------------------------------------------- //
 
 .connect-heading {
   border-bottom: none !important;
@@ -328,11 +275,6 @@ code {
   transform: scale(1.1);
 }
 
-// special handling for arch badge icon
-.arch-badge img {
-  filter: sepia(1) saturate(2) hue-rotate(90deg) brightness(0.8);
-}
-
 // crown image
 img[alt="Pirate Flag"],
 img[src*="crown"] {
@@ -355,11 +297,6 @@ img[src*="crown"]:hover {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   mask-image: radial-gradient(ellipse at center, black 50%, transparent 100%);
   -webkit-mask-image: radial-gradient(ellipse at center, black 50%, transparent 100%);
-}
-
-.arch-badge img:hover {
-  filter: sepia(1) saturate(3) hue-rotate(90deg) brightness(1);
-  transform: scale(1.1);
 }
 
 strong {
