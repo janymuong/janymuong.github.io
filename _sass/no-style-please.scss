@@ -191,47 +191,68 @@ a {
   border-bottom: none;
 }
 
-// -------------- WOOD LOG BADGES + THORN WIRE CONNECTOR -------------- //
+// -------------- CRT TERMINAL WINDOW -------------- //
 
-.badge-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: clamp(2px, 1vw, 10px);
-  flex-wrap: nowrap;
-  margin: 1rem 0;
+.terminal-window {
+  position: relative;
+  max-width: 480px;
+  margin: 1.5rem auto;
+  background: #050805;
+  border: 1px solid rgba(34, 139, 34, 0.6);
+  border-radius: 4px;
+  box-shadow: 0 0 24px rgba(34, 139, 34, 0.25),
+    inset 0 0 40px rgba(34, 139, 34, 0.05);
+  overflow: hidden;
+  font-family: monospace;
 }
 
-.log-badge {
-  width: clamp(90px, 30vw, 150px);
-  height: auto;
-  flex-shrink: 1;
-  transition: transform 0.3s ease, filter 0.3s ease;
+// scanline overlay
+.terminal-window::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(0deg,
+      rgba(0, 0, 0, 0.15) 0px,
+      rgba(0, 0, 0, 0.15) 1px,
+      transparent 1px,
+      transparent 3px);
+  pointer-events: none;
 }
 
-.log-badge:hover {
-  transform: translateY(-2px);
-  filter: brightness(1.1);
+.terminal-body {
+  margin: 0;
+  padding: 1rem;
+  color: #39ff14;
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  text-shadow: 0 0 5px rgba(57, 255, 20, 0.6);
+  position: relative;
 }
 
-.thorn-wire {
-  width: clamp(20px, 9vw, 54px);
-  height: auto;
-  flex-shrink: 1;
+.terminal-cursor {
+  animation: terminal-blink 1s step-start infinite;
 }
 
-// shrink logs + wire together on small screens so the row fits horizontally
+@keyframes terminal-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
 @media (max-width: 480px) {
-  .log-badge {
-    width: clamp(70px, 26vw, 110px);
+  .terminal-window {
+    max-width: 100%;
+    margin: 1.5rem 0.5rem;
   }
 
-  .thorn-wire {
-    width: clamp(14px, 7vw, 34px);
+  .terminal-body {
+    font-size: 12px;
+    padding: 0.8rem;
   }
 }
 
-// ---------------------------------------------------------------- //
+// -------------------------------------------------------------- //
 
 .connect-heading {
   border-bottom: none !important;
