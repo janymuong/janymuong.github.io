@@ -7,7 +7,7 @@ description: > # description of the site (multiple lines allowed)
   <div class="terminal-window">
     <pre class="terminal-body">┌─[j@github] - [~]
   └─[$] whoami
-  I am a machine learning engineer, and I do other things
+  I am a machine learning engineer, and I do other things;
   I use arch btw :)<span class="terminal-cursor">▍</span></pre>
   </div>
 
