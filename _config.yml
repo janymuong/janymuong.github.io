@@ -61,15 +61,13 @@ description: > # description of the site (multiple lines allowed)
   </div>
   
   <hr>
-  <h3 class="section-title connect-heading">connect with me on the internet:</h3>
+  <h3 class="section-title connect-heading">connect with me:</h3>
   <div class="social-links">
     <a href="https://github.com/janymuong" target="_blank"><img src="/img/github-dark.svg" title="github" alt="@janymuong" height="18" width="30" /></a>
     <a href="https://twitter.com/janymuong/" target="_blank"><img src="/img/twitter-x.svg" title="twitter/x" alt="janymuong" height="18" width="30" /></a>
     <a href="https://www.reddit.com/user/stackjvnkie/" target="_blank"><img src="/img/reddit.svg" title="reddit" alt="@janymuong" height="30" width="36" /></a>
-    <a href="https://www.linkedin.com/in/janymuong/" target="_blank"><img src="/img/linkedin-dark.svg" title="linkedin" alt="@janymuong" height="18" width="30" /></a> 
-    <a href="https://www.twitch.tv/janymuong/" target="_blank"><img src="/img/twitch.svg" title="twitch" alt="@janymuong" height="18" width="30" /></a> 
+    <a href="https://www.linkedin.com/in/janymuong/" target="_blank"><img src="/img/linkedin-dark.svg" title="linkedin" alt="@janymuong" height="18" width="30" /></a>
     <a href="https://leetcode.com/u/janymuong/" target="_blank"><img src="/img/leetcode.png" title="leetcode" alt="@janymuong" height="18" width="30" /></a>
-    <a href="https://discord.com/janymuong#0/" target="_blank"><img src="/img/discord-dark.svg" title="discord" alt="@janymuong" height="16" width="30" /></a>
   </div>
 
 permalink: /:slug.html
