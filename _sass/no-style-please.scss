@@ -160,6 +160,18 @@ a {
   transform: scale(1.1);
 }
 
+// system setup icons on a single line
+.tools-stack {
+  flex-wrap: nowrap;
+}
+
+// the ":" after the arch logo
+.tools-stack .tools-sep {
+  font-size: 1.4rem;
+  line-height: 1;
+  user-select: none;
+}
+
 // for smaller screens
 @media (max-width: 600px) {
 

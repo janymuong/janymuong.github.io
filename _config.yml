@@ -46,9 +46,13 @@ description: > # description of the site (multiple lines allowed)
     </a>
   </div>
   
-  <h3 class="section-title no-border">tool setup ⚙️:</h3>
+  <h3 class="section-title no-border">system setup ⚙️:</h3>
   <p>this segment lists out editors and command-line utilities that I use.</p>
   <div class="tools-stack">
+    <a href="https://archlinux.org/" target="_blank">
+    <img src="/img/arch.png" alt="arch linux" title="arch linux" height="28" width="44" />
+    </a>
+    <span class="tools-sep">:</span>
     <a href="#" target="_blank">
       <img src="/img/terminal-dark.svg" alt="shell" title="terminal/shell" height="24" width="20"/>
     </a>
