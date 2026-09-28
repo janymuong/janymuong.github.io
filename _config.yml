@@ -41,6 +41,9 @@ description: > # description of the site (multiple lines allowed)
     <a href="https://aws.amazon.com" target="_blank">
       <img src="/img/aws.svg" title="amazon web services" alt="aws" width="32" height="28"/>
     </a>
+    <a href="https://www.typescriptlang.org/" target="_blank">
+      <img src="/img/typescript.svg" title="typescript" alt="typescript" width="32" height="28"/>
+    </a>
   </div>
   
   <h3 class="section-title no-border">tool setup ⚙️:</h3>
