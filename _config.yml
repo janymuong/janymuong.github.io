@@ -15,7 +15,7 @@ description: > # description of the site (multiple lines allowed)
   <h3 class="section-title">about me:</h3>
   <p>I like training neural networks. I use mainly python and pytorch/tensorflow, and amazon web services (aws), and I like packaging ml models in backend applications.</p>
 
-  <blockquote><strong>fun fact:</strong> I am (overly) obsessed with <strong>command-line interfaces (clis)</strong>.</blockquote>
+  <blockquote><strong>fun fact:</strong> I am (overly) obsessed with <strong>command-line interfaces</strong>.</blockquote>
 
   <h3 class="section-title no-border">stuff:</h3>
   <p>this covers (a subset of) languages, frameworks and tools, that i work with.</p>
@@ -42,7 +42,7 @@ description: > # description of the site (multiple lines allowed)
       <img src="/img/aws.svg" title="amazon web services" alt="aws" width="32" height="28"/>
     </a>
     <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="/img/typescript.svg" title="typescript" alt="typescript" width="32" height="28"/>
+      <img src="/img/typescript.svg" title="typescript" alt="typescript" width="32" height="24"/>
     </a>
   </div>
   
