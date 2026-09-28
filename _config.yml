@@ -74,7 +74,7 @@ description: > # description of the site (multiple lines allowed)
     <a href="https://twitter.com/janymuong/" target="_blank"><img src="/img/twitter-x.svg" title="twitter/x" alt="janymuong" height="18" width="30" /></a>
     <a href="https://leetcode.com/u/janymuong/" target="_blank"><img src="/img/leetcode.png" title="leetcode" alt="@janymuong" height="18" width="30" /></a>
     <a href="https://www.linkedin.com/in/janymuong/" target="_blank"><img src="/img/linkedin-dark.svg" title="linkedin" alt="@janymuong" height="18" width="30" /></a>
-    <a href="https://www.reddit.com/user/stackjvnkie/" target="_blank"><img src="/img/reddit.svg" title="reddit" alt="@janymuong" height="32" width="38" /></a>
+    <a href="https://www.reddit.com/user/stackjvnkie/" target="_blank"><img src="/img/reddit.svg" title="reddit" alt="@janymuong" height="36" width="48" /></a>
   </div>
 
 permalink: /:slug.html
