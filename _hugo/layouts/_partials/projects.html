@@ -1,0 +1,16 @@
+{{- /* ls -l style listing. Pass a list of project pages as the context. */ -}}
+<ul class="ls">
+  {{- range . }}
+  <li>
+    <div class="ls-row">
+      <span class="perm">{{ if .Params.wip }}drwx------{{ else }}drwxr-xr-x{{ end }}</span>
+      <a class="name" href="{{ .RelPermalink }}">{{ .Title }}/</a>
+      {{- with .Params.stack }}
+      <span class="tags">{{ range . }}<span class="tag">{{ . }}</span>{{ end }}</span>
+      {{- end }}
+      {{- if .Params.wip }}<span class="badge">wip</span>{{ end }}
+    </div>
+    <p class="ls-desc">{{ .Description }}</p>
+  </li>
+  {{- end }}
+</ul>

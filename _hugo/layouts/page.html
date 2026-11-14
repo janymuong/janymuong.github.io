@@ -1,0 +1,30 @@
+{{ define "main" }}
+<article class="man">
+  <div class="terminal-window wide">
+    <pre class="terminal-body">┌─[j@yaml-engineer] - [~/{{ .Parent.Title }}]
+└─[$] man {{ .Title }}<span class="terminal-cursor">▍</span></pre>
+  </div>
+
+  <div class="man-head">
+    <span>{{ upper .Title }}(1)</span>
+    <span>manual</span>
+    <span>{{ upper .Title }}(1)</span>
+  </div>
+
+  {{ if .Params.wip -}}
+  <blockquote class="wip">[$] tail -f writeup.md<br />still being written. the full man page lands here soon.</blockquote>
+  {{- end }}
+
+  <div class="meta">
+    {{ with .Params.repo }}<p><strong>repo</strong> <a href="{{ . }}" target="_blank" rel="noopener">{{ . | replaceRE "^https?://" "" }}</a></p>{{ end }}
+    {{ with .Params.image }}<p><strong>image</strong> <a href="{{ . }}" target="_blank" rel="noopener">{{ . | replaceRE "^https?://" "" }}</a></p>{{ end }}
+    {{ with .Params.stack }}<p class="tags">{{ range . }}<span class="tag">{{ . }}</span>{{ end }}</p>{{ end }}
+  </div>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  <p class="end">(END)</p>
+</article>
+{{ end }}

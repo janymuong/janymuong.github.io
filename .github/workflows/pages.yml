@@ -1,0 +1,71 @@
+# Builds two sites and publishes them as one GitHub Pages deployment:
+#   /               the Jekyll landing page (unchanged)
+#   /yaml-engineer/ the Hugo site in _hugo/
+#
+# Needs Settings -> Pages -> Build and deployment -> Source: "GitHub Actions".
+
+name: Deploy Pages (Jekyll landing + Hugo yaml-engineer)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  HUGO_VERSION: 0.169.0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      # Jekyll ignores folders that start with an underscore, so _hugo/ is skipped here.
+      - name: Build the landing page (Jekyll)
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+
+      - name: Build yaml-engineer (Hugo)
+        run: hugo --source _hugo --destination "$RUNNER_TEMP/yaml-engineer" --minify
+
+      # The Jekyll action writes _site as root, so the merge needs sudo.
+      - name: Merge both sites
+        run: |
+          sudo mkdir -p _site/yaml-engineer
+          sudo cp -a "$RUNNER_TEMP/yaml-engineer/." _site/yaml-engineer/
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

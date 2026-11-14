@@ -1,0 +1,461 @@
+/* yaml-engineer: same green-on-black terminal theme as the landing page
+   (ported from _sass/no-style-please.scss and _sass/colors.scss, plain CSS, no Sass needed) */
+
+:root {
+  --bg: #000000;
+  --fg: #228b22;
+  --link: #32cd32;
+  --neon: #39ff14;
+  --panel: #050805;
+  --line: rgba(34, 139, 34, 0.6);
+  --tint: rgba(34, 139, 34, 0.1);
+}
+
+html,
+body {
+  background: var(--bg);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: var(--fg);
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  min-height: 100%;
+  overflow-wrap: break-word;
+}
+
+.w {
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 1em 2rem;
+  background-color: var(--bg);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+blockquote,
+li,
+dt,
+dd {
+  color: var(--fg);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 3rem;
+}
+
+hr {
+  margin: 2rem 0;
+  text-align: center;
+  border: 0;
+}
+
+hr::before {
+  content: "/////";
+}
+
+p {
+  margin: 1rem 0;
+}
+
+li {
+  margin: 0.4rem 0;
+}
+
+a {
+  color: var(--link);
+}
+
+strong {
+  color: var(--link);
+}
+
+*:target {
+  background: rgba(50, 205, 50, 0.15);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: thin solid var(--fg);
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+
+/* ---------- code ---------- */
+
+code {
+  color: var(--link);
+  background: var(--tint);
+  border: 1px solid var(--fg);
+}
+
+pre {
+  margin: 1rem 0;
+}
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-size: 14px;
+  padding: 1rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  line-height: 1.5;
+}
+
+/* ascii diagrams (```text blocks) keep their shape and scroll sideways on small screens */
+pre code.language-text {
+  white-space: pre;
+  overflow-wrap: normal;
+}
+
+blockquote {
+  font-style: italic;
+  border: none;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: rgba(34, 139, 34, 0.05);
+}
+
+blockquote p {
+  margin: 0;
+}
+
+/* ---------- section titles ---------- */
+
+.section-title {
+  border-bottom: 2px solid var(--fg);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-title.no-border {
+  border-bottom: none;
+}
+
+/* ---------- icon rows (green overlay on every icon) ---------- */
+
+.tech-stack,
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 1rem 0;
+}
+
+.tech-stack img,
+.social-links img {
+  filter: sepia(1) saturate(2) hue-rotate(90deg) brightness(0.8);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.tech-stack img:hover,
+.social-links img:hover {
+  filter: sepia(1) saturate(3) hue-rotate(90deg) brightness(1);
+  transform: scale(1.1);
+}
+
+.social-links {
+  border-bottom: 2px solid var(--fg);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .tech-stack,
+  .social-links {
+    justify-content: center;
+  }
+}
+
+/* crown at the bottom of every page */
+img.crown {
+  display: block;
+  margin: 0 auto 2rem;
+  border: none;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  filter: sepia(1) saturate(2) hue-rotate(90deg) brightness(0.8);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+img.crown:hover {
+  filter: sepia(1) saturate(3) hue-rotate(90deg) brightness(1);
+  transform: scale(1.1);
+}
+
+/* avatar: blurred edges, rounded corners */
+.avatar {
+  display: block;
+  margin: 2rem auto;
+  border-radius: 20px;
+  opacity: 0.9;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  mask-image: radial-gradient(ellipse at center, black 50%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 50%, transparent 100%);
+}
+
+/* ---------- CRT terminal window ---------- */
+
+.terminal-window {
+  position: relative;
+  max-width: 480px;
+  margin: 1.5rem auto;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  box-shadow: 0 0 24px rgba(34, 139, 34, 0.25),
+    inset 0 0 40px rgba(34, 139, 34, 0.05);
+  overflow: hidden;
+  font-family: monospace;
+}
+
+.terminal-window.wide {
+  max-width: none;
+}
+
+/* scanline overlay */
+.terminal-window::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(0deg,
+      rgba(0, 0, 0, 0.15) 0px,
+      rgba(0, 0, 0, 0.15) 1px,
+      transparent 1px,
+      transparent 3px);
+  pointer-events: none;
+}
+
+.terminal-body {
+  margin: 0;
+  padding: 1rem;
+  color: var(--neon);
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  text-shadow: 0 0 5px rgba(57, 255, 20, 0.6);
+  position: relative;
+}
+
+.terminal-cursor {
+  color: var(--neon);
+  animation: terminal-blink 1s step-start infinite;
+}
+
+@keyframes terminal-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .terminal-window {
+    max-width: 100%;
+    margin: 1.5rem 0.5rem;
+  }
+
+  .terminal-body {
+    font-size: 12px;
+    padding: 0.8rem;
+  }
+}
+
+/* tables inside the terminal card keep their columns and scroll sideways on small screens */
+.terminal-body.scroll {
+  white-space: pre;
+  overflow-x: auto;
+}
+
+/* ---------- featured project ---------- */
+
+.featured {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 1rem 1.2rem;
+  background: rgba(34, 139, 34, 0.05);
+}
+
+.featured h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+}
+
+.featured p {
+  margin: 0.6rem 0;
+}
+
+.featured ul {
+  margin: 0.6rem 0;
+  padding-left: 1.2rem;
+}
+
+.featured .links a {
+  margin-right: 1.2rem;
+}
+
+/* ---------- navigation ---------- */
+
+.crumbs {
+  margin: 0 0 0.5rem;
+  user-select: none;
+}
+
+/* ---------- ls -l project listing ---------- */
+
+.ls {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.ls li {
+  margin: 1.2rem 0;
+}
+
+.ls-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.9rem;
+}
+
+.perm {
+  opacity: 0.7;
+}
+
+.ls .name {
+  font-weight: bold;
+}
+
+.ls-desc {
+  margin: 0.2rem 0 0 0;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.total {
+  margin: 1rem 0 0;
+  opacity: 0.7;
+}
+
+.tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.tag,
+.badge {
+  display: inline-block;
+  padding: 0 0.45rem;
+  font-size: 13px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+}
+
+.badge {
+  color: var(--neon);
+  border-color: var(--neon);
+  text-shadow: 0 0 5px rgba(57, 255, 20, 0.5);
+}
+
+/* ---------- man page (project pages) ---------- */
+
+.man-head {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.3rem 1rem;
+  margin: 1.5rem 0 0.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--fg);
+  font-size: 15px;
+}
+
+.man .meta {
+  margin: 0.8rem 0;
+}
+
+.man .meta p {
+  margin: 0.3rem 0;
+}
+
+.man .meta .tags {
+  margin-top: 0.4rem;
+}
+
+.man .post-content {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.man .post-content p,
+.man .post-content li {
+  font-family: sans-serif;
+}
+
+.man .post-content h2,
+.man .post-content h3,
+.man .post-content a {
+  font-family: monospace;
+}
+
+.man .post-content h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 2.2rem 0 0.6rem;
+}
+
+.man .post-content h2::before {
+  content: "";
+}
+
+.man .post-content ul,
+.man .post-content ol {
+  padding-left: 1.4rem;
+}
+
+blockquote.wip {
+  font-style: normal;
+  font-family: monospace;
+}
+
+.man .end {
+  margin-top: 2.5rem;
+  opacity: 0.7;
+  user-select: none;
+}

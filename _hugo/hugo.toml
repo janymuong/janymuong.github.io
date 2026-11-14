@@ -1,0 +1,20 @@
+# yaml-engineer: portfolio of janymuong's work
+# Served at https://janymuong.github.io/yaml-engineer/ next to the Jekyll landing page.
+
+baseURL = "https://janymuong.github.io/yaml-engineer/"
+locale = "en"
+title = "♡ yaml-engineer"
+
+enableRobotsTXT = false
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[params]
+  description = "machine learning, cloud and devops projects by janymuong"
+  tagline = "machine learning engineer. i train models, package them as backend services, and build the cloud and devops plumbing that ships them."
+  # the short version of this site (the Jekyll landing page)
+  landing = "https://janymuong.github.io/"
+
+[markup.highlight]
+  # plain monospace code blocks, no syntax colours: it is a green-on-black site
+  codeFences = false
+  guessSyntax = false
