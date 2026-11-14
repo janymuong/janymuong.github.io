@@ -14,7 +14,7 @@ description: > # description of the site (multiple lines allowed)
   <h3 class="section-title">about me:</h3>
   <p>I like training neural networks. I use mainly python and pytorch/tensorflow, and amazon web services (aws), and I like packaging ml models in backend applications.</p>
 
-  <p><strong>PORTFOLIO:</strong> YOU can have a glimpse of my work here — <a href="/yaml-engineer/">yaml-engineer</a> (machine learning engineer).</p>
+  <p><strong>PORTFOLIO:</strong> YOU can have a glimpse of my work <a href="/yaml-engineer/"here</a> — <a href="/yaml-engineer/">yaml-engineer</a> (machine learning engineer).</p>
 
   <blockquote><strong>fun fact:</strong> I am (overly) obsessed with <strong>command-line interfaces</strong>.</blockquote>
 
