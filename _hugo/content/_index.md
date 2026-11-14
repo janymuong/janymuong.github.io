@@ -1,4 +1,4 @@
 ---
 title: "yaml-engineer"
-description: "machine learning, cloud and devops projects by janymuong"
+description: "machine learning, cloud and devops work/janymuong"
 ---
