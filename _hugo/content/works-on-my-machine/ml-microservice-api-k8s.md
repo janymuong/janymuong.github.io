@@ -1,66 +1,79 @@
 ---
 title: "ml-microservice-api-k8s"
-description: "a scikit-learn model behind a Flask API, packed in Docker and run on Kubernetes (minikube), migrated from 2019 pins to Python 3.14."
+description: "a PyTorch sleep-staging model within an API/backend, packed in Docker and run on Kubernetes. started as a scikit-learn house-price service(whose dependencies I upraded from python 3.7/and libraries that depended on it, dropped altogether afterwards, regardless)."
 weight: 1
 featured: true
 highlights:
-  - "moved a 2019 Python 3.7 project onto Python 3.14 and current libraries"
-  - "found a scaler bug that made every prediction the same, and fixed it by training a proper pipeline"
-  - "containerised with gunicorn and deployed on Kubernetes (minikube)"
-stack: ["python", "flask", "scikit-learn", "gunicorn", "docker", "kubernetes"]
+  - "swapped a scikit-learn price model for a PyTorch CNN+GRU that stages sleep from one EEG channel"
+  - "trained on real Sleep-EDF recordings, split by subject: Cohen's kappa 0.78 on 4 held-out subjects"
+  - "served with gunicorn, containerised with Docker, deployed on Kubernetes (minikube) with health probes"
+stack: ["python", "pytorch", "kubernetes", "docker", "flask", "gunicorn", ]
 repo: "https://github.com/janymuong/ml-microservice-api-k8s"
-image: "https://hub.docker.com/r/janymuong/mlapiscikit"
+image: "https://hub.docker.com/r/janymuong/sleep-staging"
 ---
 
 ## name
 
-ml-microservice-api-k8s: serve a scikit-learn housing-price model over HTTP, in a container, on a cluster.
+ml-microservice-api-k8s: serve an EEG sleep-staging model over HTTP, in a container, on a cluster.
 
 ## synopsis
 
-A small Flask API with one real endpoint, `POST /predict`. It takes six Boston-housing features (`CHAS`, `RM`, `TAX`, `PTRATIO`, `B`, `LSTAT`) as JSON and returns the predicted median home value.
+A Flask API with one real endpoint, `POST /predict`. It takes one night of single-channel EEG (`.npy`, `.edf` or JSON) and labels every 30-second epoch as Wake, N1, N2, N3 or REM. It returns the hypnogram plus sleep efficiency, sleep latency and REM latency.
 
-It started as a Python 3.7 course project pinned to 2019 libraries. This page is about dragging it onto Python 3.14 and making it behave properly in Docker and on Kubernetes.
+It began as a scikit-learn Boston-housing service. That version lives on in `legacy/boston-sklearn`; the Docker, Makefile, CI and Kubernetes plumbing was kept and adapted.
+
+Not a medical device.
 
 ## architecture
 
 ```text
-client ──POST /predict──▶ gunicorn (2 workers)
+client ──POST /predict──▶ gunicorn
                               │
                               ▼
                      Flask app (app.py)
-                     checks the six features,
-                     fixes column order and types
+                     reads .npy / .edf / JSON
                               │
                               ▼
-         Pipeline( StandardScaler ▶ GradientBoostingRegressor )
+                  preprocessing (shared with training)
+                  100 Hz, 0.3-35 Hz band-pass, 30 s epochs
                               │
                               ▼
-                   { "prediction": [ ... ] }
+        SleepNet( 1-D CNN ▶ bidirectional GRU, 20-epoch windows )
+                              │
+                              ▼
+          { "stages": [...], "summary": {...}, "trained_on": ... }
 ```
 
 ## build and run
 
 ```bash
-python train.py        # train on housing.csv, write the .joblib model
+./fetch_data.sh        # Sleep-EDF subjects 0-19
+python train.py        # write the checkpoint and its metrics
 ./run_docker.sh        # docker build, serve on localhost:8000
-./run_kubernetes.sh    # build, load into minikube, run pod, port-forward
+./run_kubernetes.sh    # build, load into minikube, run pods, port-forward
 ```
 
 Then, from another terminal:
 
 ```bash
-curl -s -X POST localhost:8000/predict \
-  -H "Content-Type: application/json" \
-  -d '{"CHAS":{"0":0},"RM":{"0":6.575},"TAX":{"0":296.0},"PTRATIO":{"0":15.3},"B":{"0":396.9},"LSTAT":{"0":4.98}}'
+curl -F "file=@samples/synthetic_night.npy" -F sampling_rate=100 localhost:8000/predict
 ```
 
-## what broke, and the fixes
+## results
 
-- **Dependencies from 2019.** `numpy==1.17.2` has no wheels for Python 3.14, so pip tried to build it from source and the build crashed. Everything moved to current releases: Flask 3, numpy 2, pandas 3, scikit-learn 1.9.
-- **`sklearn.externals.joblib` is gone.** It is a plain `import joblib` now.
-- **The pickled model would not load.** It pointed at a scikit-learn module that was renamed years ago (`sklearn.ensemble.gradient_boosting`). A pickle is tied to the library version that wrote it, so I retrained from the dataset bundled in the repo and saved a fresh model.
-- **A scaler bug hiding in plain sight.** The original fitted a new `StandardScaler` on every request. For a single row that scales every feature to zero, so the model returned the same prediction whatever you sent. The scaler now lives inside the trained pipeline and uses statistics learned from the training data.
-- **A dev server in a container.** Flask's built-in server gave way to gunicorn. The image is `python:3.14-slim`, and a `.dockerignore` keeps the virtualenv out of the build.
-- **Kubernetes pulling the wrong image.** A `:latest` tag defaults to always pulling from Docker Hub, which would fetch the old Python 3.7 image. The script builds locally, loads the image into minikube and sets `--image-pull-policy=Never`.
-- **Windows line endings.** CRLF broke the shebang (`env: 'bash\r': No such file or directory`). Fixed with `sed -i 's/\r$//'` and a `.gitattributes` that pins `eol=lf`.
+Split by subject (60/20/20), best epoch picked on validation, test subjects scored once.
+
+| accuracy | macro-F1 | Cohen's kappa |
+|---|---|---|
+| 0.838 | 0.789 | 0.778 |
+
+N2 and N3 are strong (F1 0.90). N1 is the weak stage (F1 0.47).
+
+## what changed, and the limits
+
+- **A different model.** scikit-learn on six housing features gave way to PyTorch on raw EEG. Preprocessing is one shared module, so training and serving cannot drift apart.
+- **Splitting by subject.** Both nights of a person land in the same split. Splitting by night leaks a person's EEG signature into the test set and inflates the scores.
+- **Same code scores and serves.** The windowed prediction function that scores the test set also answers `/predict`, so the reported metrics describe what the API does.
+- **Safe uploads.** `.npy` files are loaded with `allow_pickle=False`, so a malicious upload cannot run code.
+- **Kubernetes.** 2 replicas, readiness and liveness probes on `/healthz`, one gunicorn worker per pod, scaling by replicas.
+- **One channel.** Human scorers also use eye and muscle signals, which helps most with REM. Only 4 test subjects, so the score has wide error bars.

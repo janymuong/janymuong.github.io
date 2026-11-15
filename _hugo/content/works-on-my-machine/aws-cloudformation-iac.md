@@ -1,16 +1,16 @@
 ---
-title: "AWS-CloudFormation-only-IaC"
+title: "AWS-cfn-only-IaC"
 description: "AWS infrastructure described as code with CloudFormation, and as a way of deploying resources: the stacks, what they create, and how they get deployed."
 weight: 4
 # wip: true
-stack: ["aws", "cloudformation", "iac", "shell"]
+stack: ["aws", "cloudformation", "shell", "iac",]
 repo: "https://github.com/janymuong/CloudFormation-only-IaC"
 
 ---
 
 ## name
 
-aws-cloudformation-iac: AWS infrastructure described as code with CloudFormation.
+aws-cfn-iac: AWS infrastructure described as code with CloudFormation.
 Infrastructure as code on AWS is a way of deploying resources: the stacks, what they create, and how they get deployed.
 
 ![infrastructure diagram](../../static/img/aws-iac.png)

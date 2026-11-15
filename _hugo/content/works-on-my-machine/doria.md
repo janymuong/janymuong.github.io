@@ -3,7 +3,7 @@ title: "doria"
 description: "a small office network that watches itself; three vms on one linux host, configured with ansible: dhcp and dns, monitoring and alerts, and a nightly backup that is restored and checked every night."
 weight: 2
 # wip: true
-stack: ["ansible", "qemu-kvm", "dnsmasq", "prometheus/grafana & company"]
+stack: ["ansible", "qemu-kvm", "dnsmasq", "prometheus/grafana & co"]
 repo: "https://github.com/janymuong/doria"
 ---
 
