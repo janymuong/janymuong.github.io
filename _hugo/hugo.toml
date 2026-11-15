@@ -10,6 +10,6 @@ disableKinds = ["taxonomy", "term", "RSS"]
 
 [params]
   description = "machine learning, cloud and devops projects"
-  tagline = "I am a machine learning engineer. I like neural networks, and I like packagign ml models them as backend services, and build the cloud/devops and plumbing that ships them."
+  tagline = "I am a machine learning engineer. I like neural networks. I build the cloud/devops and plumbing that ships them as well."
   # the short version of this site (the Jekyll landing page)
   landing = "https://janymuong.github.io/"
