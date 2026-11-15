@@ -9,7 +9,7 @@ highlights:
   - "served with gunicorn, containerised with Docker, deployed on Kubernetes (minikube) with health probes"
 stack: ["python", "pytorch", "kubernetes", "docker", "flask", "gunicorn", ]
 repo: "https://github.com/janymuong/ml-microservice-api-k8s"
-image: "https://hub.docker.com/r/janymuong/sleep-staging"
+image: "https://hub.docker.com/r/janymuong/eeg-sleep-staging"
 ---
 
 ## name
