@@ -132,6 +132,21 @@ pre code {
   line-height: 1.5;
 }
 
+/* mermaid diagrams: drawn by script, source shown dimmed until it loads */
+pre.mermaid {
+  margin: 1rem 0;
+  padding: 1rem;
+  text-align: center;
+  overflow-x: auto;
+  background: var(--panel);
+  border: 1px solid var(--line);
+}
+
+pre.mermaid:not([data-processed]) {
+  opacity: 0.4;
+  text-align: left;
+}
+
 /* ascii diagrams (```text blocks) keep their shape and scroll sideways on small screens */
 pre code.language-text {
   white-space: pre;
