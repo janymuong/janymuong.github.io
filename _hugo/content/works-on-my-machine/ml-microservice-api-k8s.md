@@ -1,5 +1,5 @@
 ---
-title: "ml-microservice-api-k8s"
+title: "ml-microservice-k8s"
 description: "a pytorch (eeg) sleep-staging model wrapped within a backend/api and in docker, and run on bubernetes. started as a scikit-learn house-price service(whose dependencies I upraded from python 3.7/and libraries that depended on it, dropped altogether afterwards, regardless)."
 weight: 1
 featured: true
