@@ -1,7 +1,7 @@
 ---
 title: "fsnd04-eks-cicd"
 description: "a flask jwt api in a container, deployed to kubernetes on aws eks by a codepipeline that tests, builds and rolls out every push."
-weight: 5
+weight: 4
 stack: ["docker", "kubernetes", "aws-eks", "codepipeline/codebuild", "cloudformation", "python", "flask",]
 repo: "https://github.com/janymuong/FSND04-server-deployment-and-containerization"
 ---

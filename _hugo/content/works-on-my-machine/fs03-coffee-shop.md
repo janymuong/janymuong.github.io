@@ -1,7 +1,7 @@
 ---
 title: "fs03-coffee-shop"
 description: "a drink-menu app: ionic frontend, flask api, and auth0 role-based access for the public, baristas and managers."
-weight: 4
+weight: 5
 featured: false
 highlights:
   - "wrote the backend and the Auth0 JWT layer: bearer header parsing, RS256 verification against the tenant's JWKS, audience and issuer checks"
