@@ -4,7 +4,7 @@ description: "AI-assisted diabetic retinopathy (dr) screening workspace: argus e
 
 weight: 3
 # wip: true
-stack: ["ml/computer-vision", "typescript", "django", "python", "neural-nets"]
+stack: ["computer-vision", "neural-nets", "typescript", "strawberry-django/graphql", "python", "pytorch"]
 repo: "https://github.com/janymuong/argus"
 ---
 
