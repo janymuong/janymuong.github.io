@@ -3,7 +3,7 @@ title: "aws-cfn-only-iac"
 description: "AWS infrastructure described as code with CloudFormation, and as a way of deploying resources: the stacks, what they create, and how they get deployed."
 weight: 4
 # wip: true
-stack: ["aws", "cloudformation", "shell", "iac",]
+stack: ["aws", "cloudformation", "shell", "infrastructure-as-code(iac)","load-balancing"]
 repo: "https://github.com/janymuong/CloudFormation-only-IaC"
 
 ---

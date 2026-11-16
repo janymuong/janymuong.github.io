@@ -7,7 +7,7 @@ highlights:
   - "swapped a scikit-learn price model for a PyTorch CNN+GRU that stages sleep from one EEG channel"
   - "trained on real Sleep-EDF recordings, split by subject: Cohen's kappa 0.78 on 4 held-out subjects"
   - "served with gunicorn, containerised with Docker, deployed on Kubernetes (minikube) with health probes"
-stack: ["python", "pytorch", "kubernetes", "docker", "flask", "gunicorn", ]
+stack: ["python", "pytorch", "kubernetes", "docker", "neural-nets","flask", "gunicorn", ]
 repo: "https://github.com/janymuong/ml-microservice-api-k8s"
 image: "https://hub.docker.com/r/janymuong/eeg-sleep-staging"
 ---
