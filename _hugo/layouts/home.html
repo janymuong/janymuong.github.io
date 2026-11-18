@@ -11,6 +11,7 @@
 └─[$] kubectl get pods
 NAME                       STATUS    STACK{{ range $section.Pages.ByWeight }}
 {{ $pad := sub 27 (len .Title) }}{{ if lt $pad 1 }}{{ $pad = 1 }}{{ end }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ strings.Repeat $pad " " }}{{ if .Params.wip }}Pending{{ else }}Running{{ end }}   {{ with .Params.stack }}{{ delimit (first 3 .) "," }}{{ else }}-{{ end }}{{ end }}
+┌─[j@yaml-engineer] - [~]
 └─[$] <span class="terminal-cursor">▍</span></pre>
   </div>
 </header>
