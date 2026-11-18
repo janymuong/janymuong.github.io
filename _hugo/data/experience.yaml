@@ -1,0 +1,99 @@
+# The experience page reads this file: edit here, not in the template.
+# kind: work | degree | course (only changes the dot on the line)
+
+summary: >-
+  I like training neural networks. I build machine learning systems, then make sure they
+  survive contact with production. My work runs from model development in PyTorch and
+  TensorFlow through to the Docker and Kubernetes infrastructure that keeps them alive in
+  the real world. I care less about a model's accuracy on a slide than whether it holds up
+  under real traffic.
+
+work:
+  - kind: work
+    when: "May 2025 – Aug 2025"
+    title: "Backend Engineer, internship"
+    org: "Rastuc Technologies"
+    about: "a medical care discovery platform"
+    points:
+      - "Built backend modules and API endpoints using Strawberry Django/GraphQL, supporting medical lab features."
+      - "Designed database schemas and business logic layers, optimizing query performance and maintaining architectural integrity within the existing production environment."
+    see:
+      label: "the same stack, on my own project"
+      links:
+        - { name: "argus", url: "works-on-my-machine/argus/" }
+
+  - kind: work
+    when: "May 2024 – Aug 2024"
+    title: "Backend Engineer, internship"
+    org: "JHUB Africa"
+    points:
+      - "Developed agent-based modeling (ABM) simulations of infectious disease spread (meningitis), modeling about 1000 agents and their interactions for epidemiological research."
+      - "Built simulation environments enabling researchers to test intervention scenarios, reducing manual analysis time by 50%."
+
+study:
+  - kind: degree
+    when: "2023 – Aug 2026"
+    title: "B.Sc. Computer Science"
+    org: "Jomo Kenyatta University of Agriculture and Technology (JKUAT)"
+    note: "graduated August 2026"
+    points:
+      - "Core coursework: Linear Algebra, Machine Learning/Neural Networks, Calculus, Data Structures & Algorithms, Databases, Operating Systems/Systems Programming, Object-Oriented Programming, Scientific Computing and more."
+      - "Capstone: an ML-assisted pill identification system for elderly care, using computer vision techniques on a real-world healthcare problem."
+
+  - kind: course
+    when: "Aug 2024 – Oct 2024"
+    title: "Machine Learning in TensorFlow/PyTorch"
+    org: "DeepLearning.AI"
+    points:
+      - "Deep learning, convolutional neural networks, natural language processing, time series models."
+
+  - kind: course
+    when: "Nov 2022 – Jan 2024"
+    title: "Full-Stack Software Engineering"
+    org: "ALX Africa / Holberton School"
+    points:
+      - "C, Python, backend/API development, JavaScript, React, GNU/Linux shell scripting."
+    see:
+      label: "a project from it"
+      links:
+        - { name: "simple-shell", url: "works-on-my-machine/simple-shell/" }
+
+  - kind: course
+    when: "Nov 2022 – Feb 2023"
+    title: "Cloud DevOps Engineering"
+    org: "Udacity"
+    points:
+      - "AWS, Docker, Kubernetes, container orchestration, CI/CD (CircleCI), Ansible, Prometheus, AWS CloudFormation/RDS, Linux virtual machines."
+    see:
+      label: "projects from it"
+      links:
+        - { name: "udapeople-cicd", url: "works-on-my-machine/udapeople-cicd/" }
+        - { name: "aws-cfn-only-iac", url: "works-on-my-machine/aws-cloudformation-iac/" }
+        - { name: "ml-microservice-api-k8s", url: "works-on-my-machine/ml-microservice-api-k8s/" }
+
+  - kind: course
+    when: "Jul 2022 – Nov 2022"
+    title: "Full Stack Web Development Nanodegree"
+    org: "Udacity"
+    points:
+      - "Backend/API development, frontend development, React."
+    see:
+      label: "projects from it"
+      links:
+        - { name: "fs03-coffee-shop", url: "works-on-my-machine/fs03-coffee-shop/" }
+        - { name: "fsnd04-eks-cicd", url: "works-on-my-machine/fsnd04-eks-cicd/" }
+
+  - kind: degree
+    when: "2019 – 2020"
+    title: "B.Sc. Computer Science, first year"
+    org: "Jomo Kenyatta University of Agriculture and Technology (JKUAT)"
+
+skills:
+  - group: "Systems & cloud"
+    items: ["Linux/UNIX", "AWS (EC2, S3, RDS, Lambda, IAM)", "Docker", "Kubernetes", "CI/CD pipelines", "AWS CloudFormation", "shell scripting"]
+  - group: "Programming & data"
+    items: ["Python", "C", "JavaScript/TypeScript/React Native", "PostgreSQL"]
+  - group: "Platforms"
+    items: ["Django/GraphQL", "Flask", "React"]
+  - group: "Machine learning"
+    items: ["PyTorch", "TensorFlow", "computer vision", "NLP", "Pandas", "NumPy"]

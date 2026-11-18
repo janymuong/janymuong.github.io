@@ -349,6 +349,167 @@ img.crown:hover {
   filter: drop-shadow(0 0 8px rgba(57, 255, 20, 0.25));
 }
 
+/* ---------- experience: one line, with the stops hanging off it ---------- */
+
+.experience .xp-summary {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.experience .xp-links {
+  margin: 0.4rem 0 0;
+}
+
+.timeline {
+  --gutter: 3rem;
+  --x: 1.5rem;
+  position: relative;
+  margin-top: 1rem;
+  padding: 3.2rem 0 0.5rem var(--gutter);
+}
+
+/* the line: draws itself once, top to bottom */
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 2.8rem;
+  bottom: 0;
+  left: var(--x);
+  width: 2px;
+  margin-left: -1px;
+  background: linear-gradient(to bottom, var(--link), var(--fg) 65%, rgba(34, 139, 34, 0.2));
+  transform-origin: top;
+  animation: timeline-draw 1.6s ease-out both;
+}
+
+@keyframes timeline-draw {
+  from {
+    transform: scaleY(0);
+  }
+}
+
+/* the duck stands where the line starts */
+.timeline .tl-duck {
+  position: absolute;
+  top: 0;
+  left: var(--x);
+  margin: 0;
+  transform: translateX(-50%);
+}
+
+.timeline .tl-heading {
+  position: relative;
+  margin: 1.6rem 0 1.2rem;
+}
+
+.timeline .tl-heading::before,
+.timeline .tl-item::before {
+  content: "";
+  position: absolute;
+  left: calc(var(--x) - var(--gutter));
+  box-sizing: border-box;
+  transform: translateX(-50%);
+}
+
+/* section markers: a diamond on the line */
+.timeline .tl-heading::before {
+  top: 0.3em;
+  width: 11px;
+  height: 11px;
+  background: var(--bg);
+  border: 2px solid var(--neon);
+  transform: translateX(-50%) rotate(45deg);
+  box-shadow: 0 0 8px rgba(57, 255, 20, 0.6);
+}
+
+.tl-item {
+  position: relative;
+  margin: 0 0 2rem;
+}
+
+/* stops: filled dot for work, ring for a degree, small dot for a course */
+.tl-item::before {
+  top: 0.25rem;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--neon);
+  box-shadow: 0 0 8px rgba(57, 255, 20, 0.6);
+}
+
+.tl-degree::before {
+  width: 11px;
+  height: 11px;
+  background: var(--bg);
+  border: 2px solid var(--link);
+  box-shadow: none;
+}
+
+.tl-course::before {
+  width: 7px;
+  height: 7px;
+  top: 0.35rem;
+  background: var(--link);
+  box-shadow: none;
+}
+
+.tl-when {
+  margin: 0;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.tl-item .tl-title {
+  margin: 0.1rem 0 0;
+  font-size: 1rem;
+  color: var(--link);
+}
+
+.tl-org,
+.tl-points,
+.tl-points li,
+.tl-see {
+  font-family: sans-serif;
+}
+
+.tl-org {
+  margin: 0.15rem 0 0.4rem;
+  font-size: 15px;
+}
+
+.tl-points {
+  margin: 0.3rem 0;
+  padding-left: 1.2rem;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.tl-see {
+  margin: 0.4rem 0 0;
+  font-size: 14px;
+}
+
+.tl-see a {
+  font-family: monospace;
+}
+
+.experience .xp-skill {
+  margin: 0.8rem 0;
+}
+
+.experience .end {
+  margin-top: 2.5rem;
+  opacity: 0.7;
+  user-select: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timeline::before {
+    animation: none;
+  }
+}
+
 /* ---------- navigation ---------- */
 
 .crumbs {
