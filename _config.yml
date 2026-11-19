@@ -29,11 +29,9 @@ description: |
     <a href="https://www.docker.com" target="_blank"><img src="/img/docker.png" alt="docker" title="docker" width="28" height="24"/></a>
     <a href="https://kubernetes.io/" target="_blank"><img src="/img/kubernetes.svg" title="kubernetes" alt="kubernetes" width="24" height="24"/></a>
     <a href="https://aws.amazon.com" target="_blank"><img src="/img/aws.svg" title="amazon web services" alt="aws" width="32" height="28"/></a>
-    <a href="https://www.kernel.org/" target="_blank"><img src="/img/linux.svg" title="linux" alt="linux" width="24" height="24"/></a>
     <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"><img src="/img/c.svg" title="c" alt="c" width="24" height="24"/></a>
     <a href="https://www.typescriptlang.org/" target="_blank"><img src="/img/typescript.svg" title="typescript" alt="typescript" width="32" height="24"/></a>
     <a href="https://www.djangoproject.com/" target="_blank"><img src="/img/django.svg" title="django" alt="django" width="24" height="24"/></a>
-    <a href="https://graphql.org/" target="_blank"><img src="/img/graphql.svg" title="graphql" alt="graphql" width="24" height="24"/></a>
     <a href="https://www.postgresql.org/" target="_blank"><img src="/img/postgresql.svg" title="postgresql" alt="postgresql" width="24" height="24"/></a>
   </div>
 
