@@ -1,0 +1,35 @@
+# Keyed by the project's file name (content/works-on-my-machine/<key>.md).
+# group: built | coursework   (decides where it sits on the home page)
+# icon: a name from layouts/_partials/icon.html
+ml-microservice-api-k8s:
+  group: built
+  icon: activity
+  blurb: "a sleep-staging model served over http, in docker, on kubernetes"
+doria:
+  group: built
+  icon: server
+  blurb: "a small office network on three vms that watches itself and tests its own backups"
+argus:
+  group: built
+  icon: eye
+  blurb: "diabetic retinopathy screening: a mobile app, a graphql api and an onnx model"
+fs03-coffee-shop:
+  group: coursework
+  icon: coffee
+  blurb: "a drink menu where access depends on who you are, with auth0 roles"
+fsnd04-eks-cicd:
+  group: coursework
+  icon: upload-cloud
+  blurb: "a flask api that ships itself to kubernetes on aws eks"
+udapeople-cicd:
+  group: coursework
+  icon: refresh-cw
+  blurb: "blue/green releases to aws from circleci, with rollbacks and alerts"
+simple-shell:
+  group: coursework
+  icon: terminal
+  blurb: "a unix shell in c"
+aws-cloudformation-iac:
+  group: coursework
+  icon: cloud
+  blurb: "a vpc, load balancer and web servers from one cloudformation template"

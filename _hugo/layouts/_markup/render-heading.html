@@ -1,0 +1,15 @@
+{{- $icons := dict
+  "name" "box"
+  "synopsis" "align-left"
+  "architecture" "layers"
+  "endpoints" "list"
+  "build and run" "terminal"
+  "notes" "info"
+  "how a push ships" "send"
+  "pipeline" "git-branch"
+  "monitoring" "activity"
+  "how it works" "cpu"
+  "results" "bar-chart-2"
+  "what changed, and the limits" "refresh-cw"
+-}}
+<h{{ .Level }} id="{{ .Anchor }}">{{ with index $icons (lower .PlainText) }}{{ partial "icon.html" . }}{{ end }}{{ .Text }}</h{{ .Level }}>

@@ -4,8 +4,17 @@
 <header>
   <img class="avatar" src="{{ "img/avatar.webp" | relURL }}" alt="avatar" width="190" />
   <h1>{{ site.Title }}</h1>
-  <p>{{ site.Params.tagline }}</p>
-  <p><a href="{{ "experience/" | relURL }}">experience</a>&nbsp;&nbsp;<a href="{{ "resume.pdf" | relURL }}">resume (pdf)</a></p>
+  <p class="tagline">{{ site.Params.tagline }}</p>
+  <ul class="facts">
+    <li>{{ partial "icon.html" "map-pin" }}nairobi, kenya</li>
+    <li>{{ partial "icon.html" "award" }}b.sc. computer science, jkuat</li>
+    <li>{{ partial "icon.html" "briefcase" }}two backend internships</li>
+  </ul>
+  <p class="home-links">
+    <a class="pill" href="{{ "experience/" | relURL }}">{{ partial "icon.html" "briefcase" }}experience</a>
+    <a class="pill" href="{{ "resume.pdf" | relURL }}">{{ partial "icon.html" "download" }}resume</a>
+    <a class="pill" href="{{ $section.RelPermalink }}">{{ partial "icon.html" "folder" }}projects</a>
+  </p>
 
   <div class="terminal-window wide">
     <pre class="terminal-body scroll">┌─[j@yaml-engineer] - [~]
@@ -17,10 +26,13 @@ NAME                       STATUS    STACK{{ range $section.Pages.ByWeight }}
   </div>
 </header>
 
+{{ $meta := hugo.Data.projects }}
+
 {{ range $section.Pages.ByWeight }}{{ if .Params.featured }}
-<h3 class="section-title">featured:</h3>
+{{ $m := index $meta .File.ContentBaseName }}
+<h3 class="section-title">{{ partial "icon.html" "star" }}featured:</h3>
 <div class="featured">
-  <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+  <h4>{{ with $m }}<span class="proj-icon">{{ partial "icon.html" .icon }}</span>{{ end }}<a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
   {{ with .Params.stack }}<p class="tags">{{ range . }}<span class="tag">{{ . }}</span>{{ end }}</p>{{ end }}
   <p>{{ .Description }}</p>
   {{ with .Params.highlights }}
@@ -29,21 +41,33 @@ NAME                       STATUS    STACK{{ range $section.Pages.ByWeight }}
   </ul>
   {{ end }}
   <p class="links">
-    <a href="{{ .RelPermalink }}">read the write-up →</a>
-    {{ with .Params.repo }}<a href="{{ . }}" target="_blank" rel="noopener">source on github →</a>{{ end }}
+    <a href="{{ .RelPermalink }}">{{ partial "icon.html" "file-text" }}read the write-up</a>
+    {{ with .Params.repo }}<a href="{{ . }}" target="_blank" rel="noopener">{{ partial "icon.html" "github" }}source on github</a>{{ end }}
   </p>
 </div>
 {{ end }}{{ end }}
 
-{{ $rest := slice }}
-{{ range $section.Pages.ByWeight }}{{ if not .Params.featured }}{{ $rest = $rest | append . }}{{ end }}{{ end }}
-{{ if $rest }}
-<h3 class="section-title no-border">more work:</h3>
-{{ partial "projects.html" $rest }}
-<p><a href="{{ $section.RelPermalink }}">all projects →</a></p>
+{{ range $g := slice (dict "key" "built" "label" "also built:" "icon" "folder") (dict "key" "coursework" "label" "coursework:" "icon" "book-open") }}
+<h3 class="section-title no-border">{{ partial "icon.html" $g.icon }}{{ $g.label }}</h3>
+<ul class="proj-list">
+  {{- range $section.Pages.ByWeight }}
+  {{- $m := index $meta .File.ContentBaseName }}
+  {{- if and (not .Params.featured) $m (eq $m.group $g.key) }}
+  <li>
+    <span class="proj-icon">{{ partial "icon.html" $m.icon }}</span>
+    <div>
+      <a class="name" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <span class="proj-blurb">{{ $m.blurb }}</span>
+    </div>
+  </li>
+  {{- end }}
+  {{- end }}
+</ul>
 {{ end }}
 
-<h3 class="section-title no-border">toolbox:</h3>
+<p><a class="pill" href="{{ $section.RelPermalink }}">{{ partial "icon.html" "arrow-right" }}all projects</a></p>
+
+<h3 class="section-title no-border">{{ partial "icon.html" "tool" }}toolbox:</h3>
 <div class="tech-stack">
   <a href="https://www.python.org" target="_blank" rel="noopener"><img src="{{ "img/python.svg" | relURL }}"
       alt="python" title="python" width="32" height="28" /></a>
@@ -59,12 +83,16 @@ NAME                       STATUS    STACK{{ range $section.Pages.ByWeight }}
       alt="ansible" title="ansible" width="24" height="24" /></a>
   <a href="https://aws.amazon.com" target="_blank" rel="noopener"><img src="{{ "img/aws.svg" | relURL }}" alt="aws"
       title="amazon web services" width="32" height="28" /></a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener"><img src="{{ "img/typescript.svg" | relURL
-      }}" alt="typescript" title="typescript" width="32" height="24" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener"><img src="{{ "img/typescript.svg" | relURL }}" alt="typescript" title="typescript" width="32" height="24" /></a>
+  <a href="https://www.kernel.org/" target="_blank" rel="noopener"><img src="{{ "img/linux.svg" | relURL }}" alt="linux" title="linux" width="24" height="24" /></a>
+  <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" rel="noopener"><img src="{{ "img/c.svg" | relURL }}" alt="c" title="c" width="24" height="24" /></a>
+  <a href="https://www.djangoproject.com/" target="_blank" rel="noopener"><img src="{{ "img/django.svg" | relURL }}" alt="django" title="django" width="24" height="24" /></a>
+  <a href="https://graphql.org/" target="_blank" rel="noopener"><img src="{{ "img/graphql.svg" | relURL }}" alt="graphql" title="graphql" width="24" height="24" /></a>
+  <a href="https://www.postgresql.org/" target="_blank" rel="noopener"><img src="{{ "img/postgresql.svg" | relURL }}" alt="postgresql" title="postgresql" width="24" height="24" /></a>
 </div>
 
 <hr />
-<h3 class="section-title no-border">connect/get in touch:</h3>
+<h3 class="section-title no-border">{{ partial "icon.html" "mail" }}connect/get in touch:</h3>
 <div class="social-links">
   <a href="mailto:me.roumuong@gmail.com"><img src="{{ "img/mail-dark.svg" | relURL }}" title="email" alt="me.roumuong@gmail.com" height="18" width="30" /></a>
   <a href="https://www.linkedin.com/in/janymuong/" target="_blank" rel="noopener"><img src="{{ "img/linkedin-dark.svg" | relURL }}" title="linkedin" alt="@janymuong" height="18" width="30" /></a>

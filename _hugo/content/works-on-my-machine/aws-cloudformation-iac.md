@@ -13,7 +13,9 @@ repo: "https://github.com/janymuong/CloudFormation-only-IaC"
 aws-cfn-iac: AWS infrastructure described as code with CloudFormation.
 Infrastructure as code on AWS is a way of deploying resources: the stacks, what they create, and how they get deployed.
 
-![infrastructure diagram](../../static/img/aws-iac.png)
+![infrastructure diagram](/img/aws-iac.png)
+
+the course's reference diagram. the template builds the network, load balancer and web servers; the database tier in the picture is not part of it.
 
 ## synopsis
 

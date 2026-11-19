@@ -7,24 +7,24 @@
   </div>
 
   <p class="xp-summary">{{ $d.summary }}</p>
-  <p class="xp-links"><a href="{{ "resume.pdf" | relURL }}">resume (pdf)</a></p>
+  <p class="xp-links"><a class="pill" href="{{ "resume.pdf" | relURL }}">{{ partial "icon.html" "download" }}resume (pdf)</a></p>
 
   <div class="timeline">
     <img class="tl-duck" src="{{ "img/duck-mini.svg" | relURL }}" alt="" width="56" height="48" />
 
-    <h3 class="section-title no-border tl-heading">experience:</h3>
+    <h3 class="section-title no-border tl-heading">{{ partial "icon.html" "briefcase" }}experience:</h3>
     {{ range $d.work }}{{ partial "timeline-item.html" . }}{{ end }}
 
-    <h3 class="section-title no-border tl-heading">education and training:</h3>
+    <h3 class="section-title no-border tl-heading">{{ partial "icon.html" "book-open" }}education and training:</h3>
     {{ range $d.study }}{{ partial "timeline-item.html" . }}{{ end }}
   </div>
 
-  <h3 class="section-title no-border">skills:</h3>
+  <h3 class="section-title no-border">{{ partial "icon.html" "code" }}skills:</h3>
   {{ range $d.skills }}
   <p class="xp-skill"><strong>{{ .group }}</strong><br /><span class="tags">{{ range .items }}<span class="tag">{{ . }}</span>{{ end }}</span></p>
   {{ end }}
 
-  <p>more of the work: <a href="{{ "works-on-my-machine/" | relURL }}">works-on-my-machine/</a></p>
+  <p><a class="pill" href="{{ "works-on-my-machine/" | relURL }}">{{ partial "icon.html" "folder" }}more of the work</a></p>
 
   <p class="end">(END)</p>
 </article>

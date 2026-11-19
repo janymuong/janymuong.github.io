@@ -2,7 +2,9 @@
 <ul class="ls">
   {{- range . }}
   <li>
+    {{- $m := index hugo.Data.projects .File.ContentBaseName }}
     <div class="ls-row">
+      {{- with $m }}<span class="proj-icon">{{ partial "icon.html" .icon }}</span>{{ end }}
       <span class="perm">{{ if .Params.wip }}drwx------{{ else }}drwxr-xr-x{{ end }}</span>
       <a class="name" href="{{ .RelPermalink }}">{{ .Title }}/</a>
       {{- with .Params.stack }}

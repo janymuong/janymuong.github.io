@@ -1,6 +1,6 @@
 <section class="tl-item tl-{{ .kind }}">
   <p class="tl-when">{{ .when }}</p>
-  <h4 class="tl-title">{{ .title }}</h4>
+  <h4 class="tl-title">{{ partial "icon.html" (cond (eq .kind "work") "briefcase" (cond (eq .kind "degree") "award" "book-open")) }}{{ .title }}</h4>
   <p class="tl-org">{{ .org }}{{ with .about }}, {{ . }}{{ end }}{{ with .note }}, {{ . }}{{ end }}</p>
   {{ with .points }}<ul class="tl-points">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
   {{ with .see }}<p class="tl-see">{{ .label }}: {{ range $i, $l := .links }}{{ if $i }}, {{ end }}<a href="{{ $l.url | relURL }}">{{ $l.name }}</a>{{ end }}</p>{{ end }}
