@@ -34,10 +34,7 @@ aws-cloudformation-iac:
   icon: cloud
   blurb: "a vpc, load balancer and web servers from one cloudformation template"
 
-# the other group is coursework, which is for projects 
-# that are part of a course or certification 
-# looks like this one example:
-# aws-cloudformation-iac:
+# safescript:
 #   group: coursework
-#   icon: cloud
-#   blurb: "a vpc, load balancer and web servers from one cloudformation template"
+#   icon: layers
+#   blurb: "AI-assisted medication identification and drug interaction safety system for elderly patients."
