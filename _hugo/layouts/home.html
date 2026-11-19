@@ -47,7 +47,8 @@ NAME                       STATUS    STACK{{ range $section.Pages.ByWeight }}
 </div>
 {{ end }}{{ end }}
 
-{{ range $g := slice (dict "key" "built" "label" "also built:" "icon" "folder") (dict "key" "coursework" "label" "coursework:" "icon" "book-open") }}
+{{ range $g := slice (dict "key" "built" "label" "more of the same:" "icon" "folder")  }}
+<!-- (dict "key" "coursework" "label" "coursework:" "icon" "book-open") -->
 <h3 class="section-title no-border">{{ partial "icon.html" $g.icon }}{{ $g.label }}</h3>
 <ul class="proj-list">
   {{- range $section.Pages.ByWeight }}
