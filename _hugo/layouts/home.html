@@ -5,15 +5,15 @@
   <img class="avatar" src="{{ "img/avatar.webp" | relURL }}" alt="avatar" width="190" />
   <h1>{{ site.Title }}</h1>
   <p class="tagline">{{ site.Params.tagline }}</p>
-  <ul class="facts">
+  <!-- <ul class="facts">
     <li>{{ partial "icon.html" "map-pin" }}nairobi, kenya</li>
     <li>{{ partial "icon.html" "award" }}b.sc. computer science, jkuat</li>
-    <!-- <li>{{ partial "icon.html" "briefcase" }}two backend internships</li> -->
-  </ul>
+    <li>{{ partial "icon.html" "briefcase" }}two backend internships</li>
+  </ul> -->
   <p class="home-links">
+    <a class="pill" href="{{ $section.RelPermalink }}">{{ partial "icon.html" "folder" }}projects</a>
     <a class="pill" href="{{ "experience/" | relURL }}">{{ partial "icon.html" "briefcase" }}experience</a>
     <a class="pill" href="{{ "resume.pdf" | relURL }}">{{ partial "icon.html" "download" }}resume</a>
-    <a class="pill" href="{{ $section.RelPermalink }}">{{ partial "icon.html" "folder" }}projects</a>
   </p>
 
   <div class="terminal-window wide">
