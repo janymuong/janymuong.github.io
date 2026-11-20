@@ -44,14 +44,14 @@ cards:
       - { text: "argus write-up", page: argus }
 
   - kind: text
-    label: ML-Synapses-TensorFlow
+    label: SafeScript
     x: 50
     y: 196
     w: 44
     rot: -1.5
-    text: "One model that reads text and images together."
+    text: "AI-assisted medication identification and drug interaction safety system for elderly patients."
     links:
-      - { text: "view source", url: "https://github.com/janymuong/ML-Synapses-TensorFlow" }
+      - { text: "view source", url: "https://github.com/safescript-hub/safescript" }
 
   - kind: terminal
     label: terminal
@@ -74,5 +74,4 @@ cards:
     w: 34
     rot: -2.5
     code: |
-      Works on my machine.
-      Now it works in prod, too.
+      works on my machine :)
