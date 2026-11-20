@@ -1,4 +1,4 @@
-# The draggable project cards on the home page. Edit the text here.
+# The draggable project cards on the home page.
 #
 # kind:   matrix | code | terminal | text | sticky
 # x, y:   starting position on wide screens (x in % of the desk width, y in px)
