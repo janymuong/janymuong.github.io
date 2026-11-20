@@ -1,0 +1,78 @@
+# The draggable project cards on the home page. Edit the text here.
+#
+# kind:   matrix | code | terminal | text | sticky
+# x, y:   starting position on wide screens (x in % of the desk width, y in px)
+# w:      card width in % of the desk width (wide screens)
+# rot:    tilt in degrees
+# links:  page: a file name in content/works-on-my-machine/ (without .md)  or  url: any address
+
+hint: "drag them around. arrow keys work when a card is focused."
+height: 570        # desk height in px on wide screens
+
+cards:
+  - kind: matrix
+    label: confusion_matrix.png
+    x: 2
+    y: 14
+    w: 46
+    rot: -2
+    matrix:
+      labels: [W, N1, N2, N3, REM]
+      rows:
+        - [1352, 274, 35, 6, 80]
+        - [88, 357, 68, 3, 191]
+        - [5, 112, 3398, 158, 351]
+        - [0, 0, 22, 840, 0]
+        - [9, 53, 24, 0, 1692]
+    caption: "sleep staging, kappa 0.78 on 4 held-out subjects"
+    links:
+      - { text: "read the write-up", page: ml-microservice-api-k8s }
+
+  - kind: code
+    label: schema.graphql
+    x: 51
+    y: 4
+    w: 47
+    rot: 1.2
+    code: |
+      type PredictionResult {
+        predictedClass: String!
+        confidence: Float!
+        allProbabilities: [ClassProbability!]!
+      }
+    links:
+      - { text: "argus write-up", page: argus }
+
+  - kind: text
+    label: ML-Synapses-TensorFlow
+    x: 50
+    y: 196
+    w: 44
+    rot: -1.5
+    text: "One model that reads text and images together."
+    links:
+      - { text: "view source", url: "https://github.com/janymuong/ML-Synapses-TensorFlow" }
+
+  - kind: terminal
+    label: terminal
+    x: 4
+    y: 372
+    w: 45
+    rot: 2.2
+    code: |
+      $ virsh list
+       Id   Name     State
+       1    srv      running
+       2    mon      running
+       3    client   running
+    links:
+      - { text: "doria write-up", page: doria }
+
+  - kind: sticky
+    x: 56
+    y: 420
+    w: 34
+    rot: -2.5
+    code: |
+      Works on my machine.
+      Now it works in prod, too.

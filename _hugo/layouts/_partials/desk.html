@@ -1,0 +1,52 @@
+{{- /* Draggable project cards. Content lives in data/desk.yaml, behaviour in static/js/desk.js. */ -}}
+{{- $d := hugo.Data.desk -}}
+<p class="desk-hint" id="desk-hint">{{ $d.hint }}</p>
+<div class="desk" data-height="{{ $d.height }}" aria-describedby="desk-hint">
+  {{- range $d.cards }}
+  {{- $label := .label | default "note" }}
+  <article class="desk-card desk-card--{{ .kind }}" tabindex="0" aria-label="{{ $label }}. Arrow keys move this card."
+    data-x="{{ .x }}" data-y="{{ .y }}" data-w="{{ .w }}" style="--r: {{ .rot }}deg">
+    {{- with .label }}<p class="desk-label">{{ . }}</p>{{ end }}
+
+    {{- if eq .kind "matrix" }}
+    {{- $labels := .matrix.labels }}
+    <div class="mx" style="--n: {{ len $labels }}">
+      <span class="mx-corner">true ↓</span>
+      {{- range $labels }}<span class="mx-h">{{ . }}</span>{{ end }}
+      {{- range $i, $row := .matrix.rows }}
+      {{- $sum := 0 }}{{ range $row }}{{ $sum = add $sum . }}{{ end }}
+      <span class="mx-h">{{ index $labels $i }}</span>
+      {{- range $j, $v := $row }}
+      {{- $p := div (float $v) (float $sum) }}
+      <span class="mx-c{{ if eq $i $j }} mx-d{{ end }}" style="--a: {{ printf "%.2f" (add 0.06 (mul 0.6 $p)) }}">{{ $v }}</span>
+      {{- end }}
+      {{- end }}
+    </div>
+    {{- with .caption }}<p class="desk-caption">{{ . }}</p>{{ end }}
+
+    {{- else if or (eq .kind "code") (eq .kind "terminal") }}
+    <pre class="desk-code">{{ strings.TrimRight "\n" .code }}</pre>
+
+    {{- else if eq .kind "text" }}
+    <p class="desk-text">{{ .text }}</p>
+
+    {{- else if eq .kind "sticky" }}
+    <p class="desk-note">{{ strings.TrimRight "\n" .code | replaceRE "\n" "<br />" | safeHTML }}</p>
+    {{- end }}
+
+    {{- with .links }}
+    <p class="desk-links">
+      {{- range . }}
+      {{- if .page }}
+      {{- $p := site.GetPage (printf "/works-on-my-machine/%s" .page) }}
+      <a href="{{ $p.RelPermalink }}">{{ .text }}</a>
+      {{- else }}
+      <a href="{{ .url }}" target="_blank" rel="noopener">{{ .text }}</a>
+      {{- end }}
+      {{- end }}
+    </p>
+    {{- end }}
+  </article>
+  {{- end }}
+</div>
+<script defer src="{{ "js/desk.js" | relURL }}"></script>

@@ -47,24 +47,8 @@ NAME                       STATUS    STACK{{ range $section.Pages.ByWeight }}
 </div>
 {{ end }}{{ end }}
 
-{{ range $g := slice (dict "key" "built" "label" "more of the same:" "icon" "folder")  }}
-<!-- (dict "key" "coursework" "label" "coursework:" "icon" "book-open") -->
-<h3 class="section-title no-border">{{ partial "icon.html" $g.icon }}{{ $g.label }}</h3>
-<ul class="proj-list">
-  {{- range $section.Pages.ByWeight }}
-  {{- $m := index $meta .File.ContentBaseName }}
-  {{- if and (not .Params.featured) $m (eq $m.group $g.key) }}
-  <li>
-    <span class="proj-icon">{{ partial "icon.html" $m.icon }}</span>
-    <div>
-      <a class="name" href="{{ .RelPermalink }}">{{ .Title }}</a>
-      <span class="proj-blurb">{{ $m.blurb }}</span>
-    </div>
-  </li>
-  {{- end }}
-  {{- end }}
-</ul>
-{{ end }}
+<h3 class="section-title no-border">{{ partial "icon.html" "folder" }}more of the same:</h3>
+{{ partial "desk.html" . }}
 
 <p><a class="pill" href="{{ $section.RelPermalink }}">{{ partial "icon.html" "arrow-right" }}all projects</a></p>
 
