@@ -1,0 +1,21 @@
+{{- /* Moving toolbox. Content lives in data/tools.yaml, all motion is CSS.
+       Each row is drawn twice: a dim base layer, and a bright copy that is only visible inside a band
+       (a mask), so icons swell and glow as they drift through it. Both layers share one animation. */ -}}
+<div class="toolbox" role="list" aria-label="tools I work with">
+  {{- range hugo.Data.tools.rows }}
+  {{- $tools := .tools }}
+  <div class="tb-row{{ if .reverse }} tb-row--rev{{ end }}" style="--dur: {{ .speed }}s; --spot: {{ .spot }}%">
+    {{- range $layer := slice "base" "lit" }}
+    <div class="tb-layer tb-layer--{{ $layer }}"{{ if eq $layer "lit" }} aria-hidden="true"{{ end }}>
+      <ul class="tb-track">
+        {{- range $copy := slice 1 2 }}
+        {{- range $i, $t := $tools }}
+        <li class="tb-item{{ if eq $copy 2 }} tb-dup{{ end }}" style="--i: {{ $i }}"{{ if or (eq $copy 2) (eq $layer "lit") }} aria-hidden="true"{{ else }} role="listitem"{{ end }}><a href="{{ $t.url }}" target="_blank" rel="noopener"{{ if or (eq $copy 2) (eq $layer "lit") }} tabindex="-1"{{ end }}><span class="tb-ico-wrap"><img class="tb-ico{{ if $t.invert }} tb-ico--inv{{ end }}" src="{{ printf "img/%s" $t.icon | relURL }}" alt="" width="40" height="40" /></span><span class="tb-name">{{ $t.name }}</span></a></li>
+        {{- end }}
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+  </div>
+  {{- end }}
+</div>

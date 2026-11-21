@@ -1,0 +1,45 @@
+# The moving toolbox on the home page: two rows that drift in opposite directions.
+# speed: seconds for one full loop (bigger = slower)
+# spot:  where along the row the tools "light up" (% from the left)
+# reverse: true makes the row move the other way
+# icon: a file in static/img/
+
+rows:
+  - speed: 80
+    spot: 30
+    tools:
+      - { name: python,     icon: python.svg,      url: "https://www.python.org" }
+      - { name: pytorch,    icon: pytorch.svg,     url: "https://pytorch.org" }
+      - { name: tensorflow, icon: tensorflow.svg,  url: "https://www.tensorflow.org" }
+      - { name: numpy,      icon: numpy.svg,       url: "https://numpy.org" }
+      - { name: pandas,     icon: pandas.svg,      url: "https://pandas.pydata.org" }
+      - { name: onnx,       icon: onnx.svg,        url: "https://onnx.ai" }
+      - { name: c,          icon: c.svg,           url: "https://en.wikipedia.org/wiki/C_(programming_language)" }
+      - { name: typescript, icon: typescript.svg,  url: "https://www.typescriptlang.org" }
+      - { name: node.js,    icon: nodejs.svg,      url: "https://nodejs.org" }
+      - { name: react,      icon: react.svg,       url: "https://react.dev" }
+      - { name: django,     icon: django.svg,      url: "https://www.djangoproject.com" }
+      - { name: flask,      icon: flask-white.svg, url: "https://flask.palletsprojects.com" }
+      - { name: graphql,    icon: graphql.svg,     url: "https://graphql.org" }
+      - { name: postgresql, icon: postgresql.svg,  url: "https://www.postgresql.org" }
+      - { name: sqlite,     icon: sqlite-mark.svg, url: "https://www.sqlite.org" }
+
+  - speed: 95
+    spot: 70
+    reverse: true
+    tools:
+      - { name: docker,     icon: docker.png,      url: "https://www.docker.com" }
+      - { name: kubernetes, icon: kubernetes.svg,  url: "https://kubernetes.io" }
+      - { name: aws,        icon: aws.svg,         url: "https://aws.amazon.com" }
+      - { name: eks,        icon: amazon-eks.svg,  url: "https://aws.amazon.com/eks/" }
+      - { name: ansible,    icon: ansible.svg,     url: "https://www.ansible.com" }
+      - { name: circleci,   icon: circleci.svg,    url: "https://circleci.com", invert: true }
+      - { name: prometheus, icon: prometheus.svg,  url: "https://prometheus.io" }
+      - { name: grafana,    icon: grafana.svg,     url: "https://grafana.com" }
+      - { name: linux,      icon: linux.svg,       url: "https://www.kernel.org" }
+      - { name: bash,       icon: gnu-bash.svg,    url: "https://www.gnu.org/software/bash/" }
+      - { name: git,        icon: git.svg,         url: "https://git-scm.com" }
+      - { name: arch btw,   icon: arch.png,        url: "https://archlinux.org" }
+      - { name: neovim,     icon: neovim-mark.svg, url: "https://neovim.io" }
+      - { name: vs code,    icon: vs_code.svg,     url: "https://code.visualstudio.com" }
+      - { name: cloud9,     icon: cloud9.svg,      url: "https://aws.amazon.com/cloud9/" }

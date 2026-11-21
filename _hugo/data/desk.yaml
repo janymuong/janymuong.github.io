@@ -7,15 +7,15 @@
 # links:  page: a file name in content/works-on-my-machine/ (without .md)  or  url: any address
 
 hint: "drag them around. arrow keys work when a card is focused."
-height: 570        # desk height in px on wide screens
+height: 650        # desk height in px on wide screens
 
 cards:
   - kind: matrix
     label: confusion_matrix.png
-    x: 2
-    y: 14
+    x: 1
+    y: 8
     w: 46
-    rot: -2
+    rot: -3.5
     matrix:
       labels: [W, N1, N2, N3, REM]
       rows:
@@ -30,10 +30,10 @@ cards:
 
   - kind: code
     label: schema.graphql
-    x: 51
-    y: 4
-    w: 47
-    rot: 1.2
+    x: 52
+    y: 0
+    w: 45
+    rot: 3
     code: |
       type PredictionResult {
         predictedClass: String!
@@ -45,20 +45,20 @@ cards:
 
   - kind: text
     label: SafeScript
-    x: 50
-    y: 196
+    x: 51
+    y: 250
     w: 44
-    rot: -1.5
+    rot: -4
     text: "AI-assisted medication identification and drug interaction safety system for elderly patients."
     links:
       - { text: "view source", url: "https://github.com/safescript-hub/safescript" }
 
   - kind: terminal
     label: terminal
-    x: 4
-    y: 372
-    w: 45
-    rot: 2.2
+    x: 5
+    y: 418
+    w: 44
+    rot: 4
     code: |
       $ virsh list
        Id   Name     State
@@ -69,9 +69,9 @@ cards:
       - { text: "doria write-up", page: doria }
 
   - kind: sticky
-    x: 56
-    y: 420
-    w: 34
-    rot: -2.5
+    x: 62
+    y: 520
+    w: 30
+    rot: -6
     code: |
       works on my machine :)

@@ -34,13 +34,13 @@
       });
     } else {
       /* narrow screens: one loose column, alternating sides */
-      var y = 14;
+      var y = 12;
       cards.forEach(function (c, i) {
         c.style.width = (c.classList.contains("desk-card--sticky") ? 72 : 88) + "%";
         c._home = [W * (i % 2 ? 0.10 : 0.02), y];
         desk.style.height = "9999px";            /* no clamping while measuring */
         place(c, c._home[0], c._home[1]);
-        y += c.offsetHeight + 16;
+        y += c.offsetHeight + 34;
       });
       desk.style.height = (y + 4) + "px";
     }
